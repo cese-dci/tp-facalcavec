@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Cargador_Modular-rescue)(type Legacy)(uri ${KIPRJMOD}/Cargador_Modular-rescue.lib)(options "")(descr ""))
+  (lib (name New_Library)(type Legacy)(uri ${KIPRJMOD}/New_Library.lib)(options "")(descr ""))
+)

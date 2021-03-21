@@ -1,0 +1,58 @@
+Info: Processing component "R106:/60563FFB:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal".
+Info: Processing component "Q102:/6055EE01:Package_TO_SOT_THT:TO-92_HandSolder".
+Info: Processing component "Q103:/60564001:Package_TO_SOT_THT:TO-92_HandSolder".
+Info: Processing component "Q104:/605C896F:Package_TO_SOT_THT:TO-92_HandSolder".
+Info: Processing component "Q106:/6064B820/606C59D1:Package_TO_SOT_THT:TO-92_HandSolder".
+Info: Processing component "Q107:/6064B820/6066CC15:Package_TO_SOT_THT:TO-92_HandSolder".
+Info: Processing component "Q108:/6064B820/6066A113:Package_TO_SOT_SMD:SOT-23".
+Info: Processing component "R101:/6052A3FF:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal".
+Info: Processing component "R102:/60530C1E:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal".
+Info: Processing component "R103:/6055EDFB:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal".
+Info: Processing component "R104:/6051AABC:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal".
+Info: Processing component "R105:/6051B3A0:".
+Info: Processing component "U103:/60512CA9:".
+Info: Processing component "Q101:/60531C27:Package_TO_SOT_THT:TO-92_HandSolder".
+Info: Processing component "R107:/605C8969:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal".
+Info: Processing component "R109:/6064B820/606C59CB:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal".
+Info: Processing component "R110:/6064B820/6066CC0F:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal".
+Info: Processing component "R111:/6064B820/6066CC1B:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal".
+Info: Processing component "R112:/6064B820/6066A5DE:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal".
+Info: Processing component "R113:/6064B820/60669A26:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal".
+Info: Processing component "SW101:/6064B820/606656EA:Button_Switch_THT:Push_E-Switch_KS01Q01".
+Info: Processing component "SW102:/6064B820/60666642:Button_Switch_THT:Push_E-Switch_KS01Q01".
+Info: Processing component "SW103:/6064B820/60666AB1:Button_Switch_THT:Push_E-Switch_KS01Q01".
+Info: Processing component "SW104:/6064B820/60666FE4:Button_Switch_THT:Push_E-Switch_KS01Q01".
+Info: Processing component "U101:/60526B5F:".
+Info: Processing component "U102:/6050F213:Package_QFP:LQFP-64_10x10mm_P0.5mm".
+Info: Processing component "J101:/60547902:".
+Info: Processing component "BZ102:/6064B820/606C59D7:".
+Info: Processing component "C101:/6052AAFE:Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm".
+Info: Processing component "C102:/60522B51:Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm".
+Info: Processing component "C103:/605236AF:Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm".
+Info: Processing component "C104:/60523EB6:Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm".
+Info: Processing component "C105:/60524DA4:Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm".
+Info: Processing component "D101:/60534B59:Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal".
+Info: Processing component "D102:/6055EE0D:Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal".
+Info: Processing component "D103:/6056400D:Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal".
+Info: Processing component "D104:/605C897B:Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal".
+Info: Processing component "D105:/6064B820/60670CAA:LED_THT:LED_D5.0mm-3".
+Info: Processing component "DS?101:/6064B820/60662467:Cargador_Modular:3.5_TFT_DISPLAY".
+Info: Processing component "Y102:/6051FEB7:".
+Info: Processing component "J102:/6055EE23:".
+Info: Processing component "J103:/60564023:".
+Info: Processing component "Y101:/60521572:".
+Info: Processing component "J104:/605E35C6:".
+Info: Processing component "K101:/6068FE4F:Relay_THT:Relay_DPDT_Kemet_EC2".
+Info: Processing component "K102:/606A5B03:Relay_THT:Relay_DPDT_Kemet_EC2".
+Info: Processing component "K103:/606A82C3:Relay_THT:Relay_DPDT_Kemet_EC2".
+Info: Processing component "K104:/606A9DDE:Relay_THT:Relay_DPDT_Kemet_EC2".
+Error: Cannot add Y102 (no footprint assigned).
+Error: Cannot add Y101 (no footprint assigned).
+Error: Cannot add U103 (no footprint assigned).
+Error: Cannot add U101 (no footprint assigned).
+Error: Cannot add R105 (no footprint assigned).
+Error: Cannot add J104 (no footprint assigned).
+Error: Cannot add J103 (no footprint assigned).
+Error: Cannot add J102 (no footprint assigned).
+Error: Cannot add J101 (no footprint assigned).
+Error: Cannot add BZ102 (no footprint assigned).
