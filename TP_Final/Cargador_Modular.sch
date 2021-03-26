@@ -5,13 +5,13 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "Cargador modular de baterias industriales"
-Date "2021-03-18"
-Rev "0"
+Date "2021-03-26"
+Rev "1"
 Comp "proba"
-Comment1 "Revisor: Diego Brengi"
-Comment2 "Autor: Felipe A. Calcavecchia"
-Comment3 ""
-Comment4 ""
+Comment1 "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License"
+Comment2 "Revisor 2: Cristian A. Trinidad"
+Comment3 "Revisor 1: Diego Brengi"
+Comment4 "Autor: Felipe A. Calcavecchia"
 $EndDescr
 $Sheet
 S 4200 1950 1300 3300
@@ -47,7 +47,7 @@ F27 "KEYBOARD_DOWN" I L 4200 4350 50
 F28 "LED_VERDE" O L 4200 3600 50 
 F29 "LED_ROJO" O L 4200 3700 50 
 F30 "BUZZER" O L 4200 3850 50 
-F31 "P.E." I L 4200 4750 50 
+F31 "P.E." I L 4200 4700 50 
 $EndSheet
 Wire Wire Line
 	3250 2150 4200 2150
@@ -108,7 +108,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 3050 6450 3050
 Wire Wire Line
-	3250 4750 4200 4750
+	3250 4700 4200 4700
 $Sheet
 S 1950 1950 1300 3300
 U 6064B820
@@ -134,7 +134,7 @@ F18 "KEYBOARD_ENT" O R 3250 4050 50
 F19 "KEYBOARD_ESC" O R 3250 4150 50 
 F20 "KEYBOARD_UP" O R 3250 4250 50 
 F21 "KEYBOARD_DOWN" O R 3250 4350 50 
-F22 "P.E." O R 3250 4750 50 
+F22 "P.E." O R 3250 4700 50 
 $EndSheet
 Text Notes 2900 1100 0    118  Italic 24
 Cargador modular de baterías industriales con acceso remoto

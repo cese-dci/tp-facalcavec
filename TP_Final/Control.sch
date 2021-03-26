@@ -5,13 +5,13 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title "Cargador modular de baterias industriales"
-Date "2021-03-18"
-Rev "0"
+Date "2021-03-26"
+Rev "1"
 Comp "proba"
-Comment1 "Revisor: Diego Brengi"
-Comment2 "Autor: Felipe A. Calcavecchia"
-Comment3 ""
-Comment4 ""
+Comment1 "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License"
+Comment2 "Revisor 2: Cristian A. Trinidad"
+Comment3 "Revisor 1: Diego Brengi"
+Comment4 "Autor: Felipe A. Calcavecchia"
 $EndDescr
 $Comp
 L MCU_ST_STM32F1:STM32F103RBTx U102
@@ -63,13 +63,13 @@ $Comp
 L Device:Crystal Y102
 U 1 1 605E7E7E
 P 6050 5550
-F 0 "Y102" V 6004 5681 50  0000 L CNN
-F 1 "32.768Khz" V 6095 5681 50  0000 L CNN
+F 0 "Y102" V 5825 5450 50  0000 L CNN
+F 1 "32.768Khz" V 5725 5350 50  0000 L CNN
 F 2 "Crystal:Crystal_AT310_D3.0mm_L10.0mm_Horizontal_1EP_style2" H 6050 5550 50  0001 C CNN
 F 3 "~" H 6050 5550 50  0001 C CNN
 F 4 "OS9009150" V 6050 5550 50  0001 C CNN "Elemon part"
 	1    6050 5550
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:Crystal Y101
@@ -837,19 +837,9 @@ Connection ~ 6050 3400
 Wire Wire Line
 	6050 3400 6500 3400
 Wire Wire Line
-	5600 5400 6050 5400
-Connection ~ 6050 5400
-Wire Wire Line
-	6050 5400 6500 5400
-Wire Wire Line
 	5600 5500 5800 5500
 Wire Wire Line
 	5800 5500 5800 5700
-Wire Wire Line
-	5800 5700 6050 5700
-Connection ~ 6050 5700
-Wire Wire Line
-	6050 5700 6500 5700
 $Comp
 L power:GNDD #PWR0135
 U 1 1 6189E86B
@@ -1245,9 +1235,9 @@ LCD_RST
 Text HLabel 3650 4100 0    50   Output Italic 0
 LCD_RD
 Text HLabel 3650 4300 0    50   Output Italic 0
-LCD_RS
-Text HLabel 3650 4400 0    50   Output Italic 0
 LCD_RW
+Text HLabel 3650 4400 0    50   Output Italic 0
+LCD_RS
 Text HLabel 3650 4500 0    50   Output Italic 0
 LCD_CS
 Text HLabel 3650 4800 0    50   BiDi Italic 0
@@ -1267,9 +1257,9 @@ LCD_6
 Text HLabel 3650 5500 0    50   BiDi Italic 0
 LCD_7
 Text HLabel 6050 4000 2    50   Input Italic 0
-KEYBOARD_ESC
-Text HLabel 6050 4100 2    50   Input Italic 0
 KEYBOARD_ENT
+Text HLabel 6050 4100 2    50   Input Italic 0
+KEYBOARD_ESC
 Text HLabel 6050 4200 2    50   Input Italic 0
 KEYBOARD_UP
 Text HLabel 6050 4300 2    50   Input Italic 0
@@ -1315,23 +1305,23 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even J106
 U 1 1 609E7A2A
-P 3550 6700
-F 0 "J106" H 3600 7017 50  0000 C CNN
-F 1 "Poste 2x4" H 3600 6926 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 3550 6700 50  0001 C CNN
-F 3 "~" H 3550 6700 50  0001 C CNN
-	1    3550 6700
-	1    0    0    -1  
+P 3650 6700
+F 0 "J106" H 3700 7017 50  0000 C CNN
+F 1 "Poste 2x4" H 3700 6926 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 3650 6700 50  0001 C CNN
+F 3 "~" H 3650 6700 50  0001 C CNN
+	1    3650 6700
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J107
 U 1 1 609EA85D
-P 5300 6700
-F 0 "J107" H 5350 6450 50  0000 C CNN
-F 1 "Poste 2x3" H 5400 6350 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 5300 6700 50  0001 C CNN
-F 3 "~" H 5300 6700 50  0001 C CNN
-	1    5300 6700
+P 5500 6750
+F 0 "J107" H 5550 6500 50  0000 C CNN
+F 1 "Poste 2x3" H 5600 6400 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 5500 6750 50  0001 C CNN
+F 3 "~" H 5500 6750 50  0001 C CNN
+	1    5500 6750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1436,13 +1426,7 @@ Wire Wire Line
 	3200 6950 3200 6900
 Connection ~ 3200 6900
 Wire Wire Line
-	3200 6900 3350 6900
-Wire Wire Line
 	3200 6900 3200 6700
-Wire Wire Line
-	3200 6700 3350 6700
-Wire Wire Line
-	3350 6600 2900 6600
 Wire Wire Line
 	3850 6900 4300 6900
 Wire Wire Line
@@ -1463,66 +1447,66 @@ Wire Wire Line
 Wire Wire Line
 	6100 2500 5750 2500
 Connection ~ 5750 2500
-Text Label 4800 6700 0    50   Italic 0
+Text Label 5000 6750 0    50   Italic 0
 BOOT0
-Text Label 5900 6700 2    50   Italic 0
+Text Label 6100 6750 2    50   Italic 0
 BOOT1
 Wire Wire Line
-	5900 6700 5600 6700
+	6100 6750 5800 6750
 Wire Wire Line
-	5100 6700 4800 6700
+	5300 6750 5000 6750
 $Comp
 L power:GNDD #PWR0144
 U 1 1 60EE3C9A
-P 5600 6800
-F 0 "#PWR0144" H 5600 6550 50  0001 C CNN
-F 1 "GNDD" V 5604 6690 50  0000 R CNN
-F 2 "" H 5600 6800 50  0001 C CNN
-F 3 "" H 5600 6800 50  0001 C CNN
-	1    5600 6800
+P 5800 6850
+F 0 "#PWR0144" H 5800 6600 50  0001 C CNN
+F 1 "GNDD" V 5804 6740 50  0000 R CNN
+F 2 "" H 5800 6850 50  0001 C CNN
+F 3 "" H 5800 6850 50  0001 C CNN
+	1    5800 6850
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GNDD #PWR0143
 U 1 1 60EE4260
-P 5100 6800
-F 0 "#PWR0143" H 5100 6550 50  0001 C CNN
-F 1 "GNDD" V 5104 6691 50  0000 R CNN
-F 2 "" H 5100 6800 50  0001 C CNN
-F 3 "" H 5100 6800 50  0001 C CNN
-	1    5100 6800
+P 5300 6850
+F 0 "#PWR0143" H 5300 6600 50  0001 C CNN
+F 1 "GNDD" V 5304 6741 50  0000 R CNN
+F 2 "" H 5300 6850 50  0001 C CNN
+F 3 "" H 5300 6850 50  0001 C CNN
+	1    5300 6850
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+3V3 #PWR0139
 U 1 1 60EE4839
-P 5050 6550
-F 0 "#PWR0139" H 5050 6400 50  0001 C CNN
-F 1 "+3V3" H 5065 6723 50  0000 C CNN
-F 2 "" H 5050 6550 50  0001 C CNN
-F 3 "" H 5050 6550 50  0001 C CNN
-	1    5050 6550
+P 5250 6600
+F 0 "#PWR0139" H 5250 6450 50  0001 C CNN
+F 1 "+3V3" H 5265 6773 50  0000 C CNN
+F 2 "" H 5250 6600 50  0001 C CNN
+F 3 "" H 5250 6600 50  0001 C CNN
+	1    5250 6600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR0140
 U 1 1 60EE585E
-P 5650 6550
-F 0 "#PWR0140" H 5650 6400 50  0001 C CNN
-F 1 "+3V3" H 5665 6723 50  0000 C CNN
-F 2 "" H 5650 6550 50  0001 C CNN
-F 3 "" H 5650 6550 50  0001 C CNN
-	1    5650 6550
+P 5850 6600
+F 0 "#PWR0140" H 5850 6450 50  0001 C CNN
+F 1 "+3V3" H 5865 6773 50  0000 C CNN
+F 2 "" H 5850 6600 50  0001 C CNN
+F 3 "" H 5850 6600 50  0001 C CNN
+	1    5850 6600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5600 6600 5650 6600
+	5800 6650 5850 6650
 Wire Wire Line
-	5650 6600 5650 6550
+	5850 6650 5850 6600
 Wire Wire Line
-	5050 6550 5050 6600
+	5250 6600 5250 6650
 Wire Wire Line
-	5050 6600 5100 6600
+	5250 6650 5300 6650
 $Comp
 L power:GNDD #PWR0130
 U 1 1 61542EF6
@@ -1786,4 +1770,20 @@ Wire Notes Line
 	4100 600  2400 600 
 Text Notes 7000 2400 0    50   Italic 10
 <Reset>
+Wire Wire Line
+	5600 5400 6050 5400
+Wire Wire Line
+	5800 5700 6050 5700
+Connection ~ 6050 5700
+Wire Wire Line
+	6050 5700 6500 5700
+Connection ~ 6050 5400
+Wire Wire Line
+	6050 5400 6500 5400
+Wire Wire Line
+	3200 6900 3350 6900
+Wire Wire Line
+	3200 6700 3350 6700
+Wire Wire Line
+	2900 6600 3350 6600
 $EndSCHEMATC

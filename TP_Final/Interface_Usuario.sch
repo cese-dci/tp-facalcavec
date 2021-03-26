@@ -5,13 +5,13 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
 Title "Cargador modular de baterias industriales"
-Date "2021-03-18"
-Rev "0"
+Date "2021-03-26"
+Rev "1"
 Comp "proba"
-Comment1 "Revisor: Diego Brengi"
-Comment2 "Autor: Felipe A. Calcavecchia"
-Comment3 ""
-Comment4 ""
+Comment1 "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License"
+Comment2 "Revisor 2: Cristian A. Trinidad"
+Comment3 "Revisor 1: Diego Brengi"
+Comment4 "Autor: Felipe A. Calcavecchia"
 $EndDescr
 $Comp
 L Device:R R114
@@ -196,60 +196,60 @@ Wire Wire Line
 Wire Wire Line
 	8950 3850 8950 3750
 Wire Wire Line
-	3150 1200 3700 1200
+	3100 1200 3650 1200
 Wire Wire Line
-	3150 1300 3700 1300
+	3100 1300 3650 1300
 Wire Wire Line
-	3150 1400 3700 1400
+	3100 1400 3650 1400
 Wire Wire Line
-	3150 1500 3700 1500
+	3100 1500 3650 1500
 Wire Wire Line
-	3150 1600 3700 1600
+	3100 1600 3650 1600
 Wire Wire Line
-	3150 1700 3700 1700
+	3100 1700 3650 1700
 Wire Wire Line
-	3150 1800 3700 1800
+	3100 1800 3650 1800
 Wire Wire Line
-	3150 1900 3700 1900
+	3100 1900 3650 1900
 Wire Wire Line
 	8100 1650 8350 1650
 Wire Wire Line
 	8100 2250 8350 2250
 Wire Wire Line
-	3700 2100 3150 2100
+	3650 2100 3100 2100
 Wire Wire Line
-	3700 2200 3150 2200
+	3650 2200 3100 2200
 Wire Wire Line
-	3700 2300 3150 2300
+	3650 2300 3100 2300
 Wire Wire Line
-	3700 2400 3150 2400
+	3650 2400 3100 2400
 Wire Wire Line
-	3700 2500 3150 2500
-Text HLabel 3150 1400 0    50   BiDi Italic 0
+	3650 2500 3100 2500
+Text HLabel 3100 1400 0    50   BiDi Italic 0
 LCD_D2
-Text HLabel 3150 1500 0    50   BiDi Italic 0
+Text HLabel 3100 1500 0    50   BiDi Italic 0
 LCD_D3
-Text HLabel 3150 1600 0    50   BiDi Italic 0
+Text HLabel 3100 1600 0    50   BiDi Italic 0
 LCD_D4
-Text HLabel 3150 1700 0    50   BiDi Italic 0
+Text HLabel 3100 1700 0    50   BiDi Italic 0
 LCD_D5
-Text HLabel 3150 1800 0    50   BiDi Italic 0
+Text HLabel 3100 1800 0    50   BiDi Italic 0
 LCD_D6
-Text HLabel 3150 1900 0    50   BiDi Italic 0
+Text HLabel 3100 1900 0    50   BiDi Italic 0
 LCD_D7
-Text HLabel 3150 1200 0    50   BiDi Italic 0
+Text HLabel 3100 1200 0    50   BiDi Italic 0
 LCD_D0
-Text HLabel 3150 1300 0    50   BiDi Italic 0
+Text HLabel 3100 1300 0    50   BiDi Italic 0
 LCD_D1
-Text HLabel 3150 2100 0    50   Input Italic 0
+Text HLabel 3100 2100 0    50   Input Italic 0
 LCD_RST
-Text HLabel 3150 2200 0    50   Input Italic 0
+Text HLabel 3100 2200 0    50   Input Italic 0
 LCD_CS
-Text HLabel 3150 2300 0    50   Input Italic 0
+Text HLabel 3100 2300 0    50   Input Italic 0
 LCD_RS
-Text HLabel 3150 2400 0    50   Input Italic 0
+Text HLabel 3100 2400 0    50   Input Italic 0
 LCD_RW
-Text HLabel 3150 2500 0    50   Input Italic 0
+Text HLabel 3100 2500 0    50   Input Italic 0
 LCD_RD
 Text HLabel 8100 1650 0    50   Input Italic 0
 LED_VERDE
@@ -262,106 +262,106 @@ Wire Wire Line
 $Comp
 L Jumper:SolderJumper_2_Open JP101
 U 1 1 609BD0C4
-P 6250 1400
-F 0 "JP101" H 6250 1513 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 6250 1514 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6250 1400 50  0001 C CNN
-F 3 "~" H 6250 1400 50  0001 C CNN
-	1    6250 1400
+P 6200 1400
+F 0 "JP101" H 6200 1513 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 6200 1514 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6200 1400 50  0001 C CNN
+F 3 "~" H 6200 1400 50  0001 C CNN
+	1    6200 1400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Jumper:SolderJumper_2_Open JP102
 U 1 1 609BE636
-P 6250 1600
-F 0 "JP102" H 6250 1500 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 6250 1714 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6250 1600 50  0001 C CNN
-F 3 "~" H 6250 1600 50  0001 C CNN
-	1    6250 1600
+P 6200 1600
+F 0 "JP102" H 6200 1500 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 6200 1714 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6200 1600 50  0001 C CNN
+F 3 "~" H 6200 1600 50  0001 C CNN
+	1    6200 1600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR0150
 U 1 1 609BEA8F
-P 6600 1600
-F 0 "#PWR0150" H 6600 1450 50  0001 C CNN
-F 1 "+3V3" V 6615 1728 50  0000 L CNN
-F 2 "" H 6600 1600 50  0001 C CNN
-F 3 "" H 6600 1600 50  0001 C CNN
-	1    6600 1600
+P 6550 1600
+F 0 "#PWR0150" H 6550 1450 50  0001 C CNN
+F 1 "+3V3" V 6565 1728 50  0000 L CNN
+F 2 "" H 6550 1600 50  0001 C CNN
+F 3 "" H 6550 1600 50  0001 C CNN
+	1    6550 1600
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+5V #PWR0148
 U 1 1 609BF4A5
-P 6600 1400
-F 0 "#PWR0148" H 6600 1250 50  0001 C CNN
-F 1 "+5V" V 6615 1528 50  0000 L CNN
-F 2 "" H 6600 1400 50  0001 C CNN
-F 3 "" H 6600 1400 50  0001 C CNN
-	1    6600 1400
+P 6550 1400
+F 0 "#PWR0148" H 6550 1250 50  0001 C CNN
+F 1 "+5V" V 6565 1528 50  0000 L CNN
+F 2 "" H 6550 1400 50  0001 C CNN
+F 3 "" H 6550 1400 50  0001 C CNN
+	1    6550 1400
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:C C117
 U 1 1 609BFCB6
-P 5900 1850
-F 0 "C117" H 6015 1896 50  0000 L CNN
-F 1 ".1" H 6015 1805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5938 1700 50  0001 C CNN
-F 3 "~" H 5900 1850 50  0001 C CNN
-	1    5900 1850
+P 5850 1850
+F 0 "C117" H 5965 1896 50  0000 L CNN
+F 1 ".1" H 5965 1805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5888 1700 50  0001 C CNN
+F 3 "~" H 5850 1850 50  0001 C CNN
+	1    5850 1850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C116
 U 1 1 609C084D
-P 5450 1850
-F 0 "C116" H 5565 1896 50  0000 L CNN
-F 1 ".1" H 5565 1805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5488 1700 50  0001 C CNN
-F 3 "~" H 5450 1850 50  0001 C CNN
-	1    5450 1850
+P 5400 1850
+F 0 "C116" H 5515 1896 50  0000 L CNN
+F 1 ".1" H 5515 1805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5438 1700 50  0001 C CNN
+F 3 "~" H 5400 1850 50  0001 C CNN
+	1    5400 1850
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDD #PWR0152
 U 1 1 609C159B
-P 5450 2000
-F 0 "#PWR0152" H 5450 1750 50  0001 C CNN
-F 1 "GNDD" H 5454 1845 50  0000 C CNN
-F 2 "" H 5450 2000 50  0001 C CNN
-F 3 "" H 5450 2000 50  0001 C CNN
-	1    5450 2000
+P 5400 2000
+F 0 "#PWR0152" H 5400 1750 50  0001 C CNN
+F 1 "GNDD" H 5404 1845 50  0000 C CNN
+F 2 "" H 5400 2000 50  0001 C CNN
+F 3 "" H 5400 2000 50  0001 C CNN
+	1    5400 2000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDD #PWR0153
 U 1 1 609C1EED
-P 5900 2000
-F 0 "#PWR0153" H 5900 1750 50  0001 C CNN
-F 1 "GNDD" H 5904 1845 50  0000 C CNN
-F 2 "" H 5900 2000 50  0001 C CNN
-F 3 "" H 5900 2000 50  0001 C CNN
-	1    5900 2000
+P 5850 2000
+F 0 "#PWR0153" H 5850 1750 50  0001 C CNN
+F 1 "GNDD" H 5854 1845 50  0000 C CNN
+F 2 "" H 5850 2000 50  0001 C CNN
+F 3 "" H 5850 2000 50  0001 C CNN
+	1    5850 2000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5200 1600 5450 1600
+	5150 1600 5400 1600
 Wire Wire Line
-	6400 1600 6600 1600
+	6350 1600 6550 1600
 Wire Wire Line
-	6600 1400 6400 1400
+	6550 1400 6350 1400
 Wire Wire Line
-	5900 1700 5900 1400
+	5850 1700 5850 1400
 Wire Wire Line
-	5900 1400 6100 1400
+	5850 1400 6050 1400
 Wire Wire Line
-	5450 1700 5450 1600
-Connection ~ 5450 1600
+	5400 1700 5400 1600
+Connection ~ 5400 1600
 Wire Wire Line
-	5450 1600 6100 1600
+	5400 1600 6050 1600
 Text HLabel 8000 5450 0    50   Output Italic 0
 P.E.
 $Comp
@@ -452,8 +452,8 @@ $EndComp
 Wire Wire Line
 	8400 5450 8000 5450
 Wire Wire Line
-	5200 1400 5900 1400
-Connection ~ 5900 1400
+	5150 1400 5850 1400
+Connection ~ 5850 1400
 Wire Notes Line
 	7200 550  1950 550 
 $Comp
@@ -813,29 +813,29 @@ Text Notes 5300 6200 0    50   Italic 10
 $Comp
 L New_Library:Display_TFT_3.5_inch DS101
 U 1 1 6058B937
-P 4450 1800
-F 0 "DS101" H 4450 2715 50  0000 C CNN
-F 1 "Display_TFT_3.5_inch" H 4450 2624 50  0000 C CNN
-F 2 "TP_Final:Display_TFT_3.5_inch" H 3850 2200 50  0001 C CNN
-F 3 "" H 3850 2200 50  0001 C CNN
-	1    4450 1800
+P 4400 1800
+F 0 "DS101" H 4400 2715 50  0000 C CNN
+F 1 "Display_TFT_3.5_inch" H 4400 2624 50  0000 C CNN
+F 2 "TP_Final:Display_TFT_3.5_inch" H 3800 2200 50  0001 C CNN
+F 3 "" H 3800 2200 50  0001 C CNN
+	1    4400 1800
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5200 2100
-NoConn ~ 5200 2200
-NoConn ~ 5200 2300
-NoConn ~ 5200 2400
+NoConn ~ 5150 2100
+NoConn ~ 5150 2200
+NoConn ~ 5150 2300
+NoConn ~ 5150 2400
 $Comp
 L power:GNDD #PWR0155
 U 1 1 605D4150
-P 4450 2850
-F 0 "#PWR0155" H 4450 2600 50  0001 C CNN
-F 1 "GNDD" H 4454 2695 50  0000 C CNN
-F 2 "" H 4450 2850 50  0001 C CNN
-F 3 "" H 4450 2850 50  0001 C CNN
-	1    4450 2850
+P 4400 2850
+F 0 "#PWR0155" H 4400 2600 50  0001 C CNN
+F 1 "GNDD" H 4404 2695 50  0000 C CNN
+F 2 "" H 4400 2850 50  0001 C CNN
+F 3 "" H 4400 2850 50  0001 C CNN
+	1    4400 2850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4450 2850 4450 2800
+	4400 2850 4400 2800
 $EndSCHEMATC
