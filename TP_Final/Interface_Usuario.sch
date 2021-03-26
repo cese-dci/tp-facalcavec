@@ -196,61 +196,9 @@ Wire Wire Line
 Wire Wire Line
 	8950 3850 8950 3750
 Wire Wire Line
-	3100 1200 3650 1200
-Wire Wire Line
-	3100 1300 3650 1300
-Wire Wire Line
-	3100 1400 3650 1400
-Wire Wire Line
-	3100 1500 3650 1500
-Wire Wire Line
-	3100 1600 3650 1600
-Wire Wire Line
-	3100 1700 3650 1700
-Wire Wire Line
-	3100 1800 3650 1800
-Wire Wire Line
-	3100 1900 3650 1900
-Wire Wire Line
 	8100 1650 8350 1650
 Wire Wire Line
 	8100 2250 8350 2250
-Wire Wire Line
-	3650 2100 3100 2100
-Wire Wire Line
-	3650 2200 3100 2200
-Wire Wire Line
-	3650 2300 3100 2300
-Wire Wire Line
-	3650 2400 3100 2400
-Wire Wire Line
-	3650 2500 3100 2500
-Text HLabel 3100 1400 0    50   BiDi Italic 0
-LCD_D2
-Text HLabel 3100 1500 0    50   BiDi Italic 0
-LCD_D3
-Text HLabel 3100 1600 0    50   BiDi Italic 0
-LCD_D4
-Text HLabel 3100 1700 0    50   BiDi Italic 0
-LCD_D5
-Text HLabel 3100 1800 0    50   BiDi Italic 0
-LCD_D6
-Text HLabel 3100 1900 0    50   BiDi Italic 0
-LCD_D7
-Text HLabel 3100 1200 0    50   BiDi Italic 0
-LCD_D0
-Text HLabel 3100 1300 0    50   BiDi Italic 0
-LCD_D1
-Text HLabel 3100 2100 0    50   Input Italic 0
-LCD_RST
-Text HLabel 3100 2200 0    50   Input Italic 0
-LCD_CS
-Text HLabel 3100 2300 0    50   Input Italic 0
-LCD_RS
-Text HLabel 3100 2400 0    50   Input Italic 0
-LCD_RW
-Text HLabel 3100 2500 0    50   Input Italic 0
-LCD_RD
 Text HLabel 8100 1650 0    50   Input Italic 0
 LED_VERDE
 Text HLabel 8100 2250 0    50   Input Italic 0
@@ -259,109 +207,6 @@ Text HLabel 8100 4050 0    50   Input Italic 0
 BUZZER
 Wire Wire Line
 	8350 4050 8100 4050
-$Comp
-L Jumper:SolderJumper_2_Open JP101
-U 1 1 609BD0C4
-P 6200 1400
-F 0 "JP101" H 6200 1513 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 6200 1514 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6200 1400 50  0001 C CNN
-F 3 "~" H 6200 1400 50  0001 C CNN
-	1    6200 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP102
-U 1 1 609BE636
-P 6200 1600
-F 0 "JP102" H 6200 1500 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 6200 1714 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6200 1600 50  0001 C CNN
-F 3 "~" H 6200 1600 50  0001 C CNN
-	1    6200 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0150
-U 1 1 609BEA8F
-P 6550 1600
-F 0 "#PWR0150" H 6550 1450 50  0001 C CNN
-F 1 "+3V3" V 6565 1728 50  0000 L CNN
-F 2 "" H 6550 1600 50  0001 C CNN
-F 3 "" H 6550 1600 50  0001 C CNN
-	1    6550 1600
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+5V #PWR0148
-U 1 1 609BF4A5
-P 6550 1400
-F 0 "#PWR0148" H 6550 1250 50  0001 C CNN
-F 1 "+5V" V 6565 1528 50  0000 L CNN
-F 2 "" H 6550 1400 50  0001 C CNN
-F 3 "" H 6550 1400 50  0001 C CNN
-	1    6550 1400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C117
-U 1 1 609BFCB6
-P 5850 1850
-F 0 "C117" H 5965 1896 50  0000 L CNN
-F 1 ".1" H 5965 1805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5888 1700 50  0001 C CNN
-F 3 "~" H 5850 1850 50  0001 C CNN
-	1    5850 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C116
-U 1 1 609C084D
-P 5400 1850
-F 0 "C116" H 5515 1896 50  0000 L CNN
-F 1 ".1" H 5515 1805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5438 1700 50  0001 C CNN
-F 3 "~" H 5400 1850 50  0001 C CNN
-	1    5400 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR0152
-U 1 1 609C159B
-P 5400 2000
-F 0 "#PWR0152" H 5400 1750 50  0001 C CNN
-F 1 "GNDD" H 5404 1845 50  0000 C CNN
-F 2 "" H 5400 2000 50  0001 C CNN
-F 3 "" H 5400 2000 50  0001 C CNN
-	1    5400 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR0153
-U 1 1 609C1EED
-P 5850 2000
-F 0 "#PWR0153" H 5850 1750 50  0001 C CNN
-F 1 "GNDD" H 5854 1845 50  0000 C CNN
-F 2 "" H 5850 2000 50  0001 C CNN
-F 3 "" H 5850 2000 50  0001 C CNN
-	1    5850 2000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5150 1600 5400 1600
-Wire Wire Line
-	6350 1600 6550 1600
-Wire Wire Line
-	6550 1400 6350 1400
-Wire Wire Line
-	5850 1700 5850 1400
-Wire Wire Line
-	5850 1400 6050 1400
-Wire Wire Line
-	5400 1700 5400 1600
-Connection ~ 5400 1600
-Wire Wire Line
-	5400 1600 6050 1600
 Text HLabel 8000 5450 0    50   Output Italic 0
 P.E.
 $Comp
@@ -451,269 +296,6 @@ F 3 "" H 8900 5100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8400 5450 8000 5450
-Wire Wire Line
-	5150 1400 5850 1400
-Connection ~ 5850 1400
-Wire Notes Line
-	7200 550  1950 550 
-$Comp
-L Switch:SW_Push SW102
-U 1 1 606656EA
-P 4650 4350
-AR Path="/6064B820/606656EA" Ref="SW102"  Part="1" 
-AR Path="/606656EA" Ref="SW?"  Part="1" 
-F 0 "SW102" H 4650 4635 50  0000 C CNN
-F 1 "KSR" H 4650 4544 50  0000 C CNN
-F 2 "Button_Switch_THT:Push_E-Switch_KS01Q01" H 4650 4550 50  0001 C CNN
-F 3 "~" H 4650 4550 50  0001 C CNN
-F 4 "SW5702210" H 4650 4350 50  0001 C CNN "Elemon part"
-	1    4650 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW103
-U 1 1 60666642
-P 4650 4950
-F 0 "SW103" H 4650 5235 50  0000 C CNN
-F 1 "KSR" H 4650 5144 50  0000 C CNN
-F 2 "Button_Switch_THT:Push_E-Switch_KS01Q01" H 4650 5150 50  0001 C CNN
-F 3 "~" H 4650 5150 50  0001 C CNN
-F 4 "SW5702210" H 4650 4950 50  0001 C CNN "Elemon part"
-	1    4650 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW104
-U 1 1 60666AB1
-P 4650 5550
-F 0 "SW104" H 4650 5835 50  0000 C CNN
-F 1 "KSR" H 4650 5744 50  0000 C CNN
-F 2 "Button_Switch_THT:Push_E-Switch_KS01Q01" H 4650 5750 50  0001 C CNN
-F 3 "~" H 4650 5750 50  0001 C CNN
-F 4 "SW5702210" H 4650 5550 50  0001 C CNN "Elemon part"
-	1    4650 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW105
-U 1 1 60666FE4
-P 4650 6150
-F 0 "SW105" H 4650 6435 50  0000 C CNN
-F 1 "KSR" H 4650 6344 50  0000 C CNN
-F 2 "Button_Switch_THT:Push_E-Switch_KS01Q01" H 4650 6350 50  0001 C CNN
-F 3 "~" H 4650 6350 50  0001 C CNN
-F 4 "SW5702210" H 4650 6150 50  0001 C CNN "Elemon part"
-	1    4650 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C118
-U 1 1 60581E85
-P 4050 4500
-F 0 "C118" H 4165 4546 50  0000 L CNN
-F 1 ".1" H 4165 4455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4088 4350 50  0001 C CNN
-F 3 "~" H 4050 4500 50  0001 C CNN
-	1    4050 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R116
-U 1 1 60582AA9
-P 3700 4350
-F 0 "R116" V 3493 4350 50  0000 C CNN
-F 1 "1K" V 3584 4350 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 3630 4350 50  0001 C CNN
-F 3 "~" H 3700 4350 50  0001 C CNN
-	1    3700 4350
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GNDD #PWR0158
-U 1 1 605831FA
-P 4050 4650
-F 0 "#PWR0158" H 4050 4400 50  0001 C CNN
-F 1 "GNDD" H 4054 4495 50  0000 C CNN
-F 2 "" H 4050 4650 50  0001 C CNN
-F 3 "" H 4050 4650 50  0001 C CNN
-	1    4050 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C119
-U 1 1 6058A51F
-P 4050 5100
-F 0 "C119" H 4165 5146 50  0000 L CNN
-F 1 ".1" H 4165 5055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4088 4950 50  0001 C CNN
-F 3 "~" H 4050 5100 50  0001 C CNN
-	1    4050 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R117
-U 1 1 6058A525
-P 3700 4950
-F 0 "R117" V 3493 4950 50  0000 C CNN
-F 1 "1K" V 3584 4950 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 3630 4950 50  0001 C CNN
-F 3 "~" H 3700 4950 50  0001 C CNN
-	1    3700 4950
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GNDD #PWR0160
-U 1 1 6058A52B
-P 4050 5250
-F 0 "#PWR0160" H 4050 5000 50  0001 C CNN
-F 1 "GNDD" H 4054 5095 50  0000 C CNN
-F 2 "" H 4050 5250 50  0001 C CNN
-F 3 "" H 4050 5250 50  0001 C CNN
-	1    4050 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C121
-U 1 1 6058B359
-P 4050 5700
-F 0 "C121" H 4165 5746 50  0000 L CNN
-F 1 ".1" H 4165 5655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4088 5550 50  0001 C CNN
-F 3 "~" H 4050 5700 50  0001 C CNN
-	1    4050 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R120
-U 1 1 6058B35F
-P 3700 5550
-F 0 "R120" V 3493 5550 50  0000 C CNN
-F 1 "1K" V 3584 5550 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 3630 5550 50  0001 C CNN
-F 3 "~" H 3700 5550 50  0001 C CNN
-	1    3700 5550
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GNDD #PWR0161
-U 1 1 6058B365
-P 4050 5850
-F 0 "#PWR0161" H 4050 5600 50  0001 C CNN
-F 1 "GNDD" H 4054 5695 50  0000 C CNN
-F 2 "" H 4050 5850 50  0001 C CNN
-F 3 "" H 4050 5850 50  0001 C CNN
-	1    4050 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C122
-U 1 1 60593FDE
-P 4050 6300
-F 0 "C122" H 4165 6346 50  0000 L CNN
-F 1 ".1" H 4165 6255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4088 6150 50  0001 C CNN
-F 3 "~" H 4050 6300 50  0001 C CNN
-	1    4050 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R121
-U 1 1 60593FE4
-P 3700 6150
-F 0 "R121" V 3493 6150 50  0000 C CNN
-F 1 "1K" V 3584 6150 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 3630 6150 50  0001 C CNN
-F 3 "~" H 3700 6150 50  0001 C CNN
-	1    3700 6150
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GNDD #PWR0163
-U 1 1 60593FEA
-P 4050 6450
-F 0 "#PWR0163" H 4050 6200 50  0001 C CNN
-F 1 "GNDD" H 4054 6295 50  0000 C CNN
-F 2 "" H 4050 6450 50  0001 C CNN
-F 3 "" H 4050 6450 50  0001 C CNN
-	1    4050 6450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3150 4350 3550 4350
-Wire Wire Line
-	3850 4350 4050 4350
-Connection ~ 4050 4350
-Wire Wire Line
-	4050 4350 4450 4350
-Wire Wire Line
-	3150 4950 3550 4950
-Wire Wire Line
-	3850 4950 4050 4950
-Connection ~ 4050 4950
-Wire Wire Line
-	4050 4950 4450 4950
-Wire Wire Line
-	3150 5550 3550 5550
-Wire Wire Line
-	3850 5550 4050 5550
-Connection ~ 4050 5550
-Wire Wire Line
-	4050 5550 4450 5550
-Wire Wire Line
-	3150 6150 3550 6150
-Wire Wire Line
-	3850 6150 4050 6150
-Connection ~ 4050 6150
-Wire Wire Line
-	4050 6150 4450 6150
-Wire Wire Line
-	4850 4350 5100 4350
-Wire Wire Line
-	5100 4350 5100 4950
-Wire Wire Line
-	4850 4950 5100 4950
-Connection ~ 5100 4950
-Wire Wire Line
-	5100 4950 5100 5550
-Wire Wire Line
-	4850 5550 5100 5550
-Connection ~ 5100 5550
-Wire Wire Line
-	4850 6150 5100 6150
-Wire Wire Line
-	5100 5550 5100 6150
-Connection ~ 5100 6150
-$Comp
-L power:GNDD #PWR0164
-U 1 1 605A49B8
-P 5100 6450
-F 0 "#PWR0164" H 5100 6200 50  0001 C CNN
-F 1 "GNDD" H 5104 6295 50  0000 C CNN
-F 2 "" H 5100 6450 50  0001 C CNN
-F 3 "" H 5100 6450 50  0001 C CNN
-	1    5100 6450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5100 6150 5100 6450
-Text HLabel 3150 4350 0    50   Output Italic 0
-KEYBOARD_ENT
-Text HLabel 3150 4950 0    50   Output Italic 0
-KEYBOARD_ESC
-Text HLabel 3150 5550 0    50   Output Italic 0
-KEYBOARD_UP
-Text HLabel 3150 6150 0    50   Output Italic 0
-KEYBOARD_DOWN
-Wire Notes Line
-	1950 3650 7200 3650
-Wire Notes Line
-	1950 7350 6350 7350
-Wire Notes Line
-	6350 7350 6350 3900
-Wire Notes Line
-	6350 3900 1950 3900
-Wire Notes Line
-	1950 3900 1950 7350
 Wire Notes Line
 	7400 6350 10700 6350
 Wire Notes Line
@@ -738,10 +320,6 @@ Text Notes 7600 2950 0    59   ~ 12
 Indicador luminoso del estado de carga de la batería.
 Text Notes 7600 4600 0    59   ~ 12
 Indicador sonoro para el teclado y alarmas
-Text Notes 2350 3550 0    59   ~ 12
-Display de presentación de datos y parámetros del cargador
-Text Notes 2350 7150 0    59   ~ 12
-Teclado para manejo y configuración del cargador
 Text Notes 7600 6250 0    59   ~ 12
 Conexión al botón de parada de emergencia
 Text Notes 8764 690  0    50   ~ 10
@@ -777,10 +355,6 @@ Carga a FLOTE
 Wire Notes Line
 	7400 550  7400 3050
 Wire Notes Line
-	7200 550  7200 3650
-Wire Notes Line
-	1950 550  1950 3650
-Wire Notes Line
 	10700 550  10700 3050
 Wire Notes Line style solid
 	8700 1100 10650 1100
@@ -802,29 +376,8 @@ Wire Notes Line style solid
 	9200 600  9200 1100
 Wire Notes Line style solid
 	8700 600  8700 1100
-Text Notes 5300 4400 0    50   Italic 10
-<Enter>
-Text Notes 5300 5000 0    50   Italic 10
-<Escape>
-Text Notes 5300 5600 0    50   Italic 10
-<Up>
-Text Notes 5300 6200 0    50   Italic 10
-<Down>
-$Comp
-L New_Library:Display_TFT_3.5_inch DS101
-U 1 1 6058B937
-P 4400 1800
-F 0 "DS101" H 4400 2715 50  0000 C CNN
-F 1 "Display_TFT_3.5_inch" H 4400 2624 50  0000 C CNN
-F 2 "TP_Final:Display_TFT_3.5_inch" H 3800 2200 50  0001 C CNN
-F 3 "" H 3800 2200 50  0001 C CNN
-	1    4400 1800
-	1    0    0    -1  
-$EndComp
-NoConn ~ 5150 2100
-NoConn ~ 5150 2200
-NoConn ~ 5150 2300
-NoConn ~ 5150 2400
+Wire Wire Line
+	4400 2850 4400 2800
 $Comp
 L power:GNDD #PWR0155
 U 1 1 605D4150
@@ -836,6 +389,455 @@ F 3 "" H 4400 2850 50  0001 C CNN
 	1    4400 2850
 	1    0    0    -1  
 $EndComp
+NoConn ~ 5150 2400
+NoConn ~ 5150 2300
+NoConn ~ 5150 2200
+NoConn ~ 5150 2100
+$Comp
+L New_Library:Display_TFT_3.5_inch DS101
+U 1 1 6058B937
+P 4400 1800
+F 0 "DS101" H 4400 2715 50  0000 C CNN
+F 1 "Display_TFT_3.5_inch" H 4400 2624 50  0000 C CNN
+F 2 "TP_Final:Display_TFT_3.5_inch" H 3800 2200 50  0001 C CNN
+F 3 "" H 3800 2200 50  0001 C CNN
+	1    4400 1800
+	1    0    0    -1  
+$EndComp
+Text Notes 5300 6200 0    50   Italic 10
+<Down>
+Text Notes 5300 5600 0    50   Italic 10
+<Up>
+Text Notes 5300 5000 0    50   Italic 10
+<Escape>
+Text Notes 5300 4400 0    50   Italic 10
+<Enter>
+Wire Notes Line
+	1950 550  1950 3650
+Wire Notes Line
+	7200 550  7200 3650
+Text Notes 2375 6925 0    59   ~ 12
+Teclado para manejo y configuración del cargador
+Text Notes 2350 3550 0    59   ~ 12
+Display de presentación de datos y parámetros del cargador
+Wire Notes Line
+	6350 3900 1950 3900
+Wire Notes Line
+	1950 3650 7200 3650
+Text HLabel 3150 6150 0    50   Output Italic 0
+KEYBOARD_DOWN
+Text HLabel 3150 5550 0    50   Output Italic 0
+KEYBOARD_UP
+Text HLabel 3150 4950 0    50   Output Italic 0
+KEYBOARD_ESC
+Text HLabel 3150 4350 0    50   Output Italic 0
+KEYBOARD_ENT
 Wire Wire Line
-	4400 2850 4400 2800
+	5100 6150 5100 6450
+$Comp
+L power:GNDD #PWR0164
+U 1 1 605A49B8
+P 5100 6450
+F 0 "#PWR0164" H 5100 6200 50  0001 C CNN
+F 1 "GNDD" H 5104 6295 50  0000 C CNN
+F 2 "" H 5100 6450 50  0001 C CNN
+F 3 "" H 5100 6450 50  0001 C CNN
+	1    5100 6450
+	1    0    0    -1  
+$EndComp
+Connection ~ 5100 6150
+Wire Wire Line
+	5100 5550 5100 6150
+Wire Wire Line
+	4850 6150 5100 6150
+Connection ~ 5100 5550
+Wire Wire Line
+	4850 5550 5100 5550
+Wire Wire Line
+	5100 4950 5100 5550
+Connection ~ 5100 4950
+Wire Wire Line
+	4850 4950 5100 4950
+Wire Wire Line
+	5100 4350 5100 4950
+Wire Wire Line
+	4850 4350 5100 4350
+Wire Wire Line
+	4050 6150 4450 6150
+Connection ~ 4050 6150
+Wire Wire Line
+	3850 6150 4050 6150
+Wire Wire Line
+	3150 6150 3550 6150
+Wire Wire Line
+	4050 5550 4450 5550
+Connection ~ 4050 5550
+Wire Wire Line
+	3850 5550 4050 5550
+Wire Wire Line
+	3150 5550 3550 5550
+Wire Wire Line
+	4050 4950 4450 4950
+Connection ~ 4050 4950
+Wire Wire Line
+	3850 4950 4050 4950
+Wire Wire Line
+	3150 4950 3550 4950
+Wire Wire Line
+	4050 4350 4450 4350
+Connection ~ 4050 4350
+Wire Wire Line
+	3850 4350 4050 4350
+Wire Wire Line
+	3150 4350 3550 4350
+$Comp
+L power:GNDD #PWR0163
+U 1 1 60593FEA
+P 4050 6450
+F 0 "#PWR0163" H 4050 6200 50  0001 C CNN
+F 1 "GNDD" H 4054 6295 50  0000 C CNN
+F 2 "" H 4050 6450 50  0001 C CNN
+F 3 "" H 4050 6450 50  0001 C CNN
+	1    4050 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R121
+U 1 1 60593FE4
+P 3700 6150
+F 0 "R121" V 3493 6150 50  0000 C CNN
+F 1 "1K" V 3584 6150 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3630 6150 50  0001 C CNN
+F 3 "~" H 3700 6150 50  0001 C CNN
+	1    3700 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C122
+U 1 1 60593FDE
+P 4050 6300
+F 0 "C122" H 4165 6346 50  0000 L CNN
+F 1 ".1" H 4165 6255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4088 6150 50  0001 C CNN
+F 3 "~" H 4050 6300 50  0001 C CNN
+	1    4050 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0161
+U 1 1 6058B365
+P 4050 5850
+F 0 "#PWR0161" H 4050 5600 50  0001 C CNN
+F 1 "GNDD" H 4054 5695 50  0000 C CNN
+F 2 "" H 4050 5850 50  0001 C CNN
+F 3 "" H 4050 5850 50  0001 C CNN
+	1    4050 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R120
+U 1 1 6058B35F
+P 3700 5550
+F 0 "R120" V 3493 5550 50  0000 C CNN
+F 1 "1K" V 3584 5550 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3630 5550 50  0001 C CNN
+F 3 "~" H 3700 5550 50  0001 C CNN
+	1    3700 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C121
+U 1 1 6058B359
+P 4050 5700
+F 0 "C121" H 4165 5746 50  0000 L CNN
+F 1 ".1" H 4165 5655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4088 5550 50  0001 C CNN
+F 3 "~" H 4050 5700 50  0001 C CNN
+	1    4050 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0160
+U 1 1 6058A52B
+P 4050 5250
+F 0 "#PWR0160" H 4050 5000 50  0001 C CNN
+F 1 "GNDD" H 4054 5095 50  0000 C CNN
+F 2 "" H 4050 5250 50  0001 C CNN
+F 3 "" H 4050 5250 50  0001 C CNN
+	1    4050 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R117
+U 1 1 6058A525
+P 3700 4950
+F 0 "R117" V 3493 4950 50  0000 C CNN
+F 1 "1K" V 3584 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3630 4950 50  0001 C CNN
+F 3 "~" H 3700 4950 50  0001 C CNN
+	1    3700 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C119
+U 1 1 6058A51F
+P 4050 5100
+F 0 "C119" H 4165 5146 50  0000 L CNN
+F 1 ".1" H 4165 5055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4088 4950 50  0001 C CNN
+F 3 "~" H 4050 5100 50  0001 C CNN
+	1    4050 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0158
+U 1 1 605831FA
+P 4050 4650
+F 0 "#PWR0158" H 4050 4400 50  0001 C CNN
+F 1 "GNDD" H 4054 4495 50  0000 C CNN
+F 2 "" H 4050 4650 50  0001 C CNN
+F 3 "" H 4050 4650 50  0001 C CNN
+	1    4050 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R116
+U 1 1 60582AA9
+P 3700 4350
+F 0 "R116" V 3493 4350 50  0000 C CNN
+F 1 "1K" V 3584 4350 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3630 4350 50  0001 C CNN
+F 3 "~" H 3700 4350 50  0001 C CNN
+	1    3700 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C118
+U 1 1 60581E85
+P 4050 4500
+F 0 "C118" H 4165 4546 50  0000 L CNN
+F 1 ".1" H 4165 4455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4088 4350 50  0001 C CNN
+F 3 "~" H 4050 4500 50  0001 C CNN
+	1    4050 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW105
+U 1 1 60666FE4
+P 4650 6150
+F 0 "SW105" H 4650 6435 50  0000 C CNN
+F 1 "KSR" H 4650 6344 50  0000 C CNN
+F 2 "Button_Switch_THT:Push_E-Switch_KS01Q01" H 4650 6350 50  0001 C CNN
+F 3 "~" H 4650 6350 50  0001 C CNN
+F 4 "SW5702210" H 4650 6150 50  0001 C CNN "Elemon part"
+	1    4650 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW104
+U 1 1 60666AB1
+P 4650 5550
+F 0 "SW104" H 4650 5835 50  0000 C CNN
+F 1 "KSR" H 4650 5744 50  0000 C CNN
+F 2 "Button_Switch_THT:Push_E-Switch_KS01Q01" H 4650 5750 50  0001 C CNN
+F 3 "~" H 4650 5750 50  0001 C CNN
+F 4 "SW5702210" H 4650 5550 50  0001 C CNN "Elemon part"
+	1    4650 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW103
+U 1 1 60666642
+P 4650 4950
+F 0 "SW103" H 4650 5235 50  0000 C CNN
+F 1 "KSR" H 4650 5144 50  0000 C CNN
+F 2 "Button_Switch_THT:Push_E-Switch_KS01Q01" H 4650 5150 50  0001 C CNN
+F 3 "~" H 4650 5150 50  0001 C CNN
+F 4 "SW5702210" H 4650 4950 50  0001 C CNN "Elemon part"
+	1    4650 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW102
+U 1 1 606656EA
+P 4650 4350
+AR Path="/6064B820/606656EA" Ref="SW102"  Part="1" 
+AR Path="/606656EA" Ref="SW?"  Part="1" 
+F 0 "SW102" H 4650 4635 50  0000 C CNN
+F 1 "KSR" H 4650 4544 50  0000 C CNN
+F 2 "Button_Switch_THT:Push_E-Switch_KS01Q01" H 4650 4550 50  0001 C CNN
+F 3 "~" H 4650 4550 50  0001 C CNN
+F 4 "SW5702210" H 4650 4350 50  0001 C CNN "Elemon part"
+	1    4650 4350
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	7200 550  1950 550 
+Connection ~ 5850 1400
+Wire Wire Line
+	5150 1400 5850 1400
+Wire Wire Line
+	5400 1600 6050 1600
+Connection ~ 5400 1600
+Wire Wire Line
+	5400 1700 5400 1600
+Wire Wire Line
+	5850 1400 6050 1400
+Wire Wire Line
+	5850 1700 5850 1400
+Wire Wire Line
+	6550 1400 6350 1400
+Wire Wire Line
+	6350 1600 6550 1600
+Wire Wire Line
+	5150 1600 5400 1600
+$Comp
+L power:GNDD #PWR0153
+U 1 1 609C1EED
+P 5850 2000
+F 0 "#PWR0153" H 5850 1750 50  0001 C CNN
+F 1 "GNDD" H 5854 1845 50  0000 C CNN
+F 2 "" H 5850 2000 50  0001 C CNN
+F 3 "" H 5850 2000 50  0001 C CNN
+	1    5850 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0152
+U 1 1 609C159B
+P 5400 2000
+F 0 "#PWR0152" H 5400 1750 50  0001 C CNN
+F 1 "GNDD" H 5404 1845 50  0000 C CNN
+F 2 "" H 5400 2000 50  0001 C CNN
+F 3 "" H 5400 2000 50  0001 C CNN
+	1    5400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C116
+U 1 1 609C084D
+P 5400 1850
+F 0 "C116" H 5515 1896 50  0000 L CNN
+F 1 ".1" H 5515 1805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5438 1700 50  0001 C CNN
+F 3 "~" H 5400 1850 50  0001 C CNN
+	1    5400 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C117
+U 1 1 609BFCB6
+P 5850 1850
+F 0 "C117" H 5965 1896 50  0000 L CNN
+F 1 ".1" H 5965 1805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5888 1700 50  0001 C CNN
+F 3 "~" H 5850 1850 50  0001 C CNN
+	1    5850 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0148
+U 1 1 609BF4A5
+P 6550 1400
+F 0 "#PWR0148" H 6550 1250 50  0001 C CNN
+F 1 "+5V" V 6565 1528 50  0000 L CNN
+F 2 "" H 6550 1400 50  0001 C CNN
+F 3 "" H 6550 1400 50  0001 C CNN
+	1    6550 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0150
+U 1 1 609BEA8F
+P 6550 1600
+F 0 "#PWR0150" H 6550 1450 50  0001 C CNN
+F 1 "+3V3" V 6565 1728 50  0000 L CNN
+F 2 "" H 6550 1600 50  0001 C CNN
+F 3 "" H 6550 1600 50  0001 C CNN
+	1    6550 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP102
+U 1 1 609BE636
+P 6200 1600
+F 0 "JP102" H 6200 1500 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 6200 1714 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6200 1600 50  0001 C CNN
+F 3 "~" H 6200 1600 50  0001 C CNN
+	1    6200 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP101
+U 1 1 609BD0C4
+P 6200 1400
+F 0 "JP101" H 6200 1513 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 6200 1514 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6200 1400 50  0001 C CNN
+F 3 "~" H 6200 1400 50  0001 C CNN
+	1    6200 1400
+	1    0    0    -1  
+$EndComp
+Text HLabel 3100 2500 0    50   Input Italic 0
+LCD_RD
+Text HLabel 3100 2400 0    50   Input Italic 0
+LCD_RW
+Text HLabel 3100 2300 0    50   Input Italic 0
+LCD_RS
+Text HLabel 3100 2200 0    50   Input Italic 0
+LCD_CS
+Text HLabel 3100 2100 0    50   Input Italic 0
+LCD_RST
+Text HLabel 3100 1300 0    50   BiDi Italic 0
+LCD_D1
+Text HLabel 3100 1200 0    50   BiDi Italic 0
+LCD_D0
+Text HLabel 3100 1900 0    50   BiDi Italic 0
+LCD_D7
+Text HLabel 3100 1800 0    50   BiDi Italic 0
+LCD_D6
+Text HLabel 3100 1700 0    50   BiDi Italic 0
+LCD_D5
+Text HLabel 3100 1600 0    50   BiDi Italic 0
+LCD_D4
+Text HLabel 3100 1500 0    50   BiDi Italic 0
+LCD_D3
+Text HLabel 3100 1400 0    50   BiDi Italic 0
+LCD_D2
+Wire Wire Line
+	3650 2500 3100 2500
+Wire Wire Line
+	3650 2400 3100 2400
+Wire Wire Line
+	3650 2300 3100 2300
+Wire Wire Line
+	3650 2200 3100 2200
+Wire Wire Line
+	3650 2100 3100 2100
+Wire Wire Line
+	3100 1900 3650 1900
+Wire Wire Line
+	3100 1800 3650 1800
+Wire Wire Line
+	3100 1700 3650 1700
+Wire Wire Line
+	3100 1600 3650 1600
+Wire Wire Line
+	3100 1500 3650 1500
+Wire Wire Line
+	3100 1400 3650 1400
+Wire Wire Line
+	3100 1300 3650 1300
+Wire Wire Line
+	3100 1200 3650 1200
+Wire Notes Line
+	3425 7400 3425 7400
+Wire Notes Line
+	6350 7350 6350 3900
+Wire Notes Line
+	1950 3900 1950 7350
+Wire Notes Line
+	1950 7350 6350 7350
 $EndSCHEMATC

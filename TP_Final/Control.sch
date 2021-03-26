@@ -1647,8 +1647,6 @@ F 3 "" H 3150 1000 50  0001 C CNN
 	1    3150 1000
 	1    0    0    -1  
 $EndComp
-Text Notes 2400 750  0    59   ~ 12
-Capacitores de desacople de U402
 Wire Wire Line
 	5600 2300 6450 2300
 Wire Wire Line
@@ -1786,4 +1784,6 @@ Wire Wire Line
 	3200 6700 3350 6700
 Wire Wire Line
 	2900 6600 3350 6600
+Text Notes 2400 750  0    59   ~ 12
+Capacitores de desacople de U402
 $EndSCHEMATC
