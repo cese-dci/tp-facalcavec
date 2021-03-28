@@ -16,123 +16,119 @@ $EndDescr
 $Comp
 L Device:R R114
 U 1 1 60669A26
-P 8500 2250
-F 0 "R114" V 8293 2250 50  0000 C CNN
-F 1 "1K8" V 8384 2250 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 8430 2250 50  0001 C CNN
-F 3 "~" H 8500 2250 50  0001 C CNN
-	1    8500 2250
+P 8500 2375
+F 0 "R114" V 8293 2375 50  0000 C CNN
+F 1 "1K8" V 8384 2375 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8430 2375 50  0001 C CNN
+F 3 "~" H 8500 2375 50  0001 C CNN
+	1    8500 2375
 	0    1    1    0   
 $EndComp
 $Comp
 L Transistor_BJT:2N3904 Q106
 U 1 1 6066A113
-P 8850 2250
-F 0 "Q106" H 8550 2100 50  0000 L CNN
-F 1 "2N3904" H 8550 2000 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92L_HandSolder" H 9050 2175 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 8850 2250 50  0001 L CNN
-F 4 "TR170340" H 8850 2250 50  0001 C CNN "Elemon part"
-	1    8850 2250
+P 8850 2375
+F 0 "Q106" H 8550 2225 50  0000 L CNN
+F 1 "2N3904" H 8550 2125 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92L_HandSolder" H 9050 2300 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 8850 2375 50  0001 L CNN
+F 4 "TR170340" H 8850 2375 50  0001 C CNN "Elemon part"
+	1    8850 2375
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R113
 U 1 1 6066A5DE
-P 9300 2050
-F 0 "R113" V 8900 2050 50  0000 C CNN
-F 1 "470" V 9500 2050 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 9230 2050 50  0001 C CNN
-F 3 "~" H 9300 2050 50  0001 C CNN
-	1    9300 2050
+P 9300 2175
+F 0 "R113" V 9400 2175 50  0000 C CNN
+F 1 "470" V 9200 2175 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9230 2175 50  0001 C CNN
+F 3 "~" H 9300 2175 50  0001 C CNN
+	1    9300 2175
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R111
+L Device:R R112
 U 1 1 6066CC0F
-P 8500 1650
-F 0 "R111" V 8400 1650 50  0000 C CNN
-F 1 "1K8" V 8300 1650 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 8430 1650 50  0001 C CNN
-F 3 "~" H 8500 1650 50  0001 C CNN
-	1    8500 1650
+P 8500 1675
+F 0 "R112" V 8400 1675 50  0000 C CNN
+F 1 "1K8" V 8300 1675 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8430 1675 50  0001 C CNN
+F 3 "~" H 8500 1675 50  0001 C CNN
+	1    8500 1675
 	0    1    -1   0   
 $EndComp
 $Comp
 L Transistor_BJT:2N3904 Q105
 U 1 1 6066CC15
-P 8850 1650
-F 0 "Q105" H 8500 1350 50  0000 L CNN
-F 1 "2N3904" H 8500 1450 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_HandSolder" H 9050 1575 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 8850 1650 50  0001 L CNN
-F 4 "TR1703400" H 8850 1650 50  0001 C CNN "Elemon part"
-	1    8850 1650
-	1    0    0    1   
+P 8850 1675
+F 0 "Q105" H 8550 1925 50  0000 L CNN
+F 1 "2N3904" H 8550 1825 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_HandSolder" H 9050 1600 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 8850 1675 50  0001 L CNN
+F 4 "TR1703400" H 8850 1675 50  0001 C CNN "Elemon part"
+	1    8850 1675
+	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R112
+L Device:R R111
 U 1 1 6066CC1B
-P 9300 1850
-F 0 "R112" V 9000 1850 50  0000 C CNN
-F 1 "470" V 9400 1850 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 9230 1850 50  0001 C CNN
-F 3 "~" H 9300 1850 50  0001 C CNN
-	1    9300 1850
+P 9275 1475
+F 0 "R111" V 9175 1475 50  0000 C CNN
+F 1 "470" V 9350 1475 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9205 1475 50  0001 C CNN
+F 3 "~" H 9275 1475 50  0001 C CNN
+	1    9275 1475
 	0    1    -1   0   
 $EndComp
 $Comp
 L Device:LED_Dual_CAC D105
 U 1 1 60670CAA
-P 9850 1950
-F 0 "D105" H 9850 1603 50  0000 C CNN
-F 1 "LED Bicolor 5mm" H 9850 1694 50  0000 C CNN
-F 2 "LED_THT:LED_D5.0mm-3" H 9900 1950 50  0001 C CNN
-F 3 "~" H 9900 1950 50  0001 C CNN
-F 4 "1080-1110-ND" H 9850 1950 50  0001 C CNN "Digikey part"
-	1    9850 1950
+P 9850 1825
+F 0 "D105" H 9850 1478 50  0000 C CNN
+F 1 "LED Bicolor 5mm" H 9775 1575 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm-3" H 9900 1825 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5439A.pdf" H 9900 1825 50  0001 C CNN
+F 4 "Fairchild" H 9850 1825 50  0001 C CNN "Manufac."
+F 5 "hree-lead bicolor T-1 3/4 (5mm) lamp witha  central  common  anode  lead. " H 9850 1825 50  0001 C CNN "Description"
+F 6 "1080-1110-ND" H 9850 1825 50  0001 C CNN "Digikey part"
+	1    9850 1825
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GNDD #PWR0154
 U 1 1 6067738A
-P 8950 2450
-F 0 "#PWR0154" H 8950 2200 50  0001 C CNN
-F 1 "GNDD" H 8954 2295 50  0000 C CNN
-F 2 "" H 8950 2450 50  0001 C CNN
-F 3 "" H 8950 2450 50  0001 C CNN
-	1    8950 2450
+P 8950 2575
+F 0 "#PWR0154" H 8950 2325 50  0001 C CNN
+F 1 "GNDD" H 8954 2420 50  0000 C CNN
+F 2 "" H 8950 2575 50  0001 C CNN
+F 3 "" H 8950 2575 50  0001 C CNN
+	1    8950 2575
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDD #PWR0149
+L power:GNDD #PWR0151
 U 1 1 60677744
-P 8950 1450
-F 0 "#PWR0149" H 8950 1200 50  0001 C CNN
-F 1 "GNDD" H 8954 1295 50  0000 C CNN
-F 2 "" H 8950 1450 50  0001 C CNN
-F 3 "" H 8950 1450 50  0001 C CNN
-	1    8950 1450
-	-1   0    0    1   
+P 8950 1875
+F 0 "#PWR0151" H 8950 1625 50  0001 C CNN
+F 1 "GNDD" H 8954 1720 50  0000 C CNN
+F 2 "" H 8950 1875 50  0001 C CNN
+F 3 "" H 8950 1875 50  0001 C CNN
+	1    8950 1875
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8950 1850 9150 1850
-Wire Wire Line
-	9450 1850 9550 1850
-Wire Wire Line
-	8950 2050 9150 2050
-Wire Wire Line
-	9450 2050 9550 2050
+	8950 2175 9150 2175
 $Comp
-L power:+5V #PWR0151
+L power:+5V #PWR0148
 U 1 1 60678DDE
-P 10150 1950
-F 0 "#PWR0151" H 10150 1800 50  0001 C CNN
-F 1 "+5V" V 10165 2078 50  0000 L CNN
-F 2 "" H 10150 1950 50  0001 C CNN
-F 3 "" H 10150 1950 50  0001 C CNN
-	1    10150 1950
-	0    1    1    0   
+P 10375 1500
+F 0 "#PWR0148" H 10375 1350 50  0001 C CNN
+F 1 "+5V" H 10300 1675 50  0000 L CNN
+F 2 "" H 10375 1500 50  0001 C CNN
+F 3 "" H 10375 1500 50  0001 C CNN
+	1    10375 1500
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R115
@@ -155,18 +151,6 @@ F 2 "Package_TO_SOT_THT:TO-92_HandSolder" H 9050 3975 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 8850 4050 50  0001 L CNN
 F 4 "TR170340" H 8850 4050 50  0001 C CNN "Elemon part"
 	1    8850 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Buzzer BZ101
-U 1 1 606C59D7
-P 9050 3650
-F 0 "BZ101" H 9300 3950 50  0000 C CNN
-F 1 "Buzzer" H 9250 3850 50  0000 C CNN
-F 2 "Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm" V 9025 3750 50  0001 C CNN
-F 3 "~" V 9025 3750 50  0001 C CNN
-F 4 "OS9209100" H 9050 3650 50  0001 C CNN "Elemon part"
-	1    9050 3650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -196,13 +180,13 @@ Wire Wire Line
 Wire Wire Line
 	8950 3850 8950 3750
 Wire Wire Line
-	8100 1650 8350 1650
+	8100 1675 8350 1675
 Wire Wire Line
-	8100 2250 8350 2250
-Text HLabel 8100 1650 0    50   Input Italic 0
-LED_VERDE
-Text HLabel 8100 2250 0    50   Input Italic 0
+	8100 2375 8350 2375
+Text HLabel 8100 1675 0    50   Input Italic 0
 LED_ROJO
+Text HLabel 8100 2375 0    50   Input Italic 0
+LED_VERDE
 Text HLabel 8100 4050 0    50   Input Italic 0
 BUZZER
 Wire Wire Line
@@ -250,7 +234,9 @@ F 0 "J108" H 9600 5700 50  0000 L CNN
 F 1 "BG2" H 9600 5600 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" H 9650 5450 50  0001 C CNN
 F 3 "~" H 9650 5450 50  0001 C CNN
-F 4 "BO5811874" H 9650 5450 50  0001 C CNN "Elemon part"
+F 4 "XINYA" H 9650 5450 50  0001 C CNN "Manufac."
+F 5 "BO5811874" H 9650 5450 50  0001 C CNN "Elemon part"
+F 6 "Bloque de terminales de tornillo PCB " H 9650 5450 50  0001 C CNN "Description"
 	1    9650 5450
 	1    0    0    -1  
 $EndComp
@@ -377,33 +363,22 @@ Wire Notes Line style solid
 Wire Notes Line style solid
 	8700 600  8700 1100
 Wire Wire Line
-	4400 2850 4400 2800
+	4325 3025 4325 2975
 $Comp
 L power:GNDD #PWR0155
 U 1 1 605D4150
-P 4400 2850
-F 0 "#PWR0155" H 4400 2600 50  0001 C CNN
-F 1 "GNDD" H 4404 2695 50  0000 C CNN
-F 2 "" H 4400 2850 50  0001 C CNN
-F 3 "" H 4400 2850 50  0001 C CNN
-	1    4400 2850
+P 4325 3025
+F 0 "#PWR0155" H 4325 2775 50  0001 C CNN
+F 1 "GNDD" H 4329 2870 50  0000 C CNN
+F 2 "" H 4325 3025 50  0001 C CNN
+F 3 "" H 4325 3025 50  0001 C CNN
+	1    4325 3025
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5150 2400
-NoConn ~ 5150 2300
-NoConn ~ 5150 2200
-NoConn ~ 5150 2100
-$Comp
-L New_Library:Display_TFT_3.5_inch DS101
-U 1 1 6058B937
-P 4400 1800
-F 0 "DS101" H 4400 2715 50  0000 C CNN
-F 1 "Display_TFT_3.5_inch" H 4400 2624 50  0000 C CNN
-F 2 "TP_Final:Display_TFT_3.5_inch" H 3800 2200 50  0001 C CNN
-F 3 "" H 3800 2200 50  0001 C CNN
-	1    4400 1800
-	1    0    0    -1  
-$EndComp
+NoConn ~ 5075 2575
+NoConn ~ 5075 2475
+NoConn ~ 5075 2375
+NoConn ~ 5075 2275
 Text Notes 5300 6200 0    50   Italic 10
 <Down>
 Text Notes 5300 5600 0    50   Italic 10
@@ -449,42 +424,42 @@ Connection ~ 5100 6150
 Wire Wire Line
 	5100 5550 5100 6150
 Wire Wire Line
-	4850 6150 5100 6150
+	4850 6150 4875 6150
 Connection ~ 5100 5550
 Wire Wire Line
-	4850 5550 5100 5550
+	4850 5550 4875 5550
 Wire Wire Line
 	5100 4950 5100 5550
 Connection ~ 5100 4950
 Wire Wire Line
-	4850 4950 5100 4950
+	4850 4950 4875 4950
 Wire Wire Line
 	5100 4350 5100 4950
 Wire Wire Line
-	4850 4350 5100 4350
+	4850 4350 4875 4350
 Wire Wire Line
-	4050 6150 4450 6150
+	4050 6150 4425 6150
 Connection ~ 4050 6150
 Wire Wire Line
 	3850 6150 4050 6150
 Wire Wire Line
 	3150 6150 3550 6150
 Wire Wire Line
-	4050 5550 4450 5550
+	4050 5550 4425 5550
 Connection ~ 4050 5550
 Wire Wire Line
 	3850 5550 4050 5550
 Wire Wire Line
 	3150 5550 3550 5550
 Wire Wire Line
-	4050 4950 4450 4950
+	4050 4950 4425 4950
 Connection ~ 4050 4950
 Wire Wire Line
 	3850 4950 4050 4950
 Wire Wire Line
 	3150 4950 3550 4950
 Wire Wire Line
-	4050 4350 4450 4350
+	4050 4350 4425 4350
 Connection ~ 4050 4350
 Wire Wire Line
 	3850 4350 4050 4350
@@ -622,222 +597,339 @@ F 3 "~" H 4050 4500 50  0001 C CNN
 	1    4050 4500
 	1    0    0    -1  
 $EndComp
-$Comp
-L Switch:SW_Push SW105
-U 1 1 60666FE4
-P 4650 6150
-F 0 "SW105" H 4650 6435 50  0000 C CNN
-F 1 "KSR" H 4650 6344 50  0000 C CNN
-F 2 "Button_Switch_THT:Push_E-Switch_KS01Q01" H 4650 6350 50  0001 C CNN
-F 3 "~" H 4650 6350 50  0001 C CNN
-F 4 "SW5702210" H 4650 6150 50  0001 C CNN "Elemon part"
-	1    4650 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW104
-U 1 1 60666AB1
-P 4650 5550
-F 0 "SW104" H 4650 5835 50  0000 C CNN
-F 1 "KSR" H 4650 5744 50  0000 C CNN
-F 2 "Button_Switch_THT:Push_E-Switch_KS01Q01" H 4650 5750 50  0001 C CNN
-F 3 "~" H 4650 5750 50  0001 C CNN
-F 4 "SW5702210" H 4650 5550 50  0001 C CNN "Elemon part"
-	1    4650 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW103
-U 1 1 60666642
-P 4650 4950
-F 0 "SW103" H 4650 5235 50  0000 C CNN
-F 1 "KSR" H 4650 5144 50  0000 C CNN
-F 2 "Button_Switch_THT:Push_E-Switch_KS01Q01" H 4650 5150 50  0001 C CNN
-F 3 "~" H 4650 5150 50  0001 C CNN
-F 4 "SW5702210" H 4650 4950 50  0001 C CNN "Elemon part"
-	1    4650 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW102
-U 1 1 606656EA
-P 4650 4350
-AR Path="/6064B820/606656EA" Ref="SW102"  Part="1" 
-AR Path="/606656EA" Ref="SW?"  Part="1" 
-F 0 "SW102" H 4650 4635 50  0000 C CNN
-F 1 "KSR" H 4650 4544 50  0000 C CNN
-F 2 "Button_Switch_THT:Push_E-Switch_KS01Q01" H 4650 4550 50  0001 C CNN
-F 3 "~" H 4650 4550 50  0001 C CNN
-F 4 "SW5702210" H 4650 4350 50  0001 C CNN "Elemon part"
-	1    4650 4350
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	7200 550  1950 550 
-Connection ~ 5850 1400
+Connection ~ 5775 1575
 Wire Wire Line
-	5150 1400 5850 1400
+	5075 1575 5775 1575
 Wire Wire Line
-	5400 1600 6050 1600
-Connection ~ 5400 1600
+	5325 1775 5975 1775
+Connection ~ 5325 1775
 Wire Wire Line
-	5400 1700 5400 1600
+	5325 1875 5325 1775
 Wire Wire Line
-	5850 1400 6050 1400
+	5775 1575 5975 1575
 Wire Wire Line
-	5850 1700 5850 1400
+	5775 1875 5775 1575
 Wire Wire Line
-	6550 1400 6350 1400
+	6475 1575 6275 1575
 Wire Wire Line
-	6350 1600 6550 1600
+	6275 1775 6475 1775
 Wire Wire Line
-	5150 1600 5400 1600
+	5075 1775 5325 1775
 $Comp
 L power:GNDD #PWR0153
 U 1 1 609C1EED
-P 5850 2000
-F 0 "#PWR0153" H 5850 1750 50  0001 C CNN
-F 1 "GNDD" H 5854 1845 50  0000 C CNN
-F 2 "" H 5850 2000 50  0001 C CNN
-F 3 "" H 5850 2000 50  0001 C CNN
-	1    5850 2000
+P 5775 2175
+F 0 "#PWR0153" H 5775 1925 50  0001 C CNN
+F 1 "GNDD" H 5779 2020 50  0000 C CNN
+F 2 "" H 5775 2175 50  0001 C CNN
+F 3 "" H 5775 2175 50  0001 C CNN
+	1    5775 2175
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDD #PWR0152
 U 1 1 609C159B
-P 5400 2000
-F 0 "#PWR0152" H 5400 1750 50  0001 C CNN
-F 1 "GNDD" H 5404 1845 50  0000 C CNN
-F 2 "" H 5400 2000 50  0001 C CNN
-F 3 "" H 5400 2000 50  0001 C CNN
-	1    5400 2000
+P 5325 2175
+F 0 "#PWR0152" H 5325 1925 50  0001 C CNN
+F 1 "GNDD" H 5329 2020 50  0000 C CNN
+F 2 "" H 5325 2175 50  0001 C CNN
+F 3 "" H 5325 2175 50  0001 C CNN
+	1    5325 2175
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C116
 U 1 1 609C084D
-P 5400 1850
-F 0 "C116" H 5515 1896 50  0000 L CNN
-F 1 ".1" H 5515 1805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5438 1700 50  0001 C CNN
-F 3 "~" H 5400 1850 50  0001 C CNN
-	1    5400 1850
+P 5325 2025
+F 0 "C116" H 5440 2071 50  0000 L CNN
+F 1 ".1" H 5440 1980 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5363 1875 50  0001 C CNN
+F 3 "~" H 5325 2025 50  0001 C CNN
+	1    5325 2025
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C117
 U 1 1 609BFCB6
-P 5850 1850
-F 0 "C117" H 5965 1896 50  0000 L CNN
-F 1 ".1" H 5965 1805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5888 1700 50  0001 C CNN
-F 3 "~" H 5850 1850 50  0001 C CNN
-	1    5850 1850
+P 5775 2025
+F 0 "C117" H 5890 2071 50  0000 L CNN
+F 1 ".1" H 5890 1980 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5813 1875 50  0001 C CNN
+F 3 "~" H 5775 2025 50  0001 C CNN
+	1    5775 2025
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0148
+L power:+5V #PWR0149
 U 1 1 609BF4A5
-P 6550 1400
-F 0 "#PWR0148" H 6550 1250 50  0001 C CNN
-F 1 "+5V" V 6565 1528 50  0000 L CNN
-F 2 "" H 6550 1400 50  0001 C CNN
-F 3 "" H 6550 1400 50  0001 C CNN
-	1    6550 1400
+P 6475 1575
+F 0 "#PWR0149" H 6475 1425 50  0001 C CNN
+F 1 "+5V" V 6490 1703 50  0000 L CNN
+F 2 "" H 6475 1575 50  0001 C CNN
+F 3 "" H 6475 1575 50  0001 C CNN
+	1    6475 1575
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+3V3 #PWR0150
 U 1 1 609BEA8F
-P 6550 1600
-F 0 "#PWR0150" H 6550 1450 50  0001 C CNN
-F 1 "+3V3" V 6565 1728 50  0000 L CNN
-F 2 "" H 6550 1600 50  0001 C CNN
-F 3 "" H 6550 1600 50  0001 C CNN
-	1    6550 1600
+P 6475 1775
+F 0 "#PWR0150" H 6475 1625 50  0001 C CNN
+F 1 "+3V3" V 6490 1903 50  0000 L CNN
+F 2 "" H 6475 1775 50  0001 C CNN
+F 3 "" H 6475 1775 50  0001 C CNN
+	1    6475 1775
 	0    1    1    0   
 $EndComp
 $Comp
 L Jumper:SolderJumper_2_Open JP102
 U 1 1 609BE636
-P 6200 1600
-F 0 "JP102" H 6200 1500 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 6200 1714 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6200 1600 50  0001 C CNN
-F 3 "~" H 6200 1600 50  0001 C CNN
-	1    6200 1600
+P 6125 1775
+F 0 "JP102" H 6125 1675 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 6125 1889 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6125 1775 50  0001 C CNN
+F 3 "~" H 6125 1775 50  0001 C CNN
+	1    6125 1775
 	1    0    0    -1  
 $EndComp
 $Comp
 L Jumper:SolderJumper_2_Open JP101
 U 1 1 609BD0C4
-P 6200 1400
-F 0 "JP101" H 6200 1513 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 6200 1514 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6200 1400 50  0001 C CNN
-F 3 "~" H 6200 1400 50  0001 C CNN
-	1    6200 1400
+P 6125 1575
+F 0 "JP101" H 6125 1688 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 6125 1689 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6125 1575 50  0001 C CNN
+F 3 "~" H 6125 1575 50  0001 C CNN
+	1    6125 1575
 	1    0    0    -1  
 $EndComp
-Text HLabel 3100 2500 0    50   Input Italic 0
+Text HLabel 3025 2675 0    50   Input Italic 0
 LCD_RD
-Text HLabel 3100 2400 0    50   Input Italic 0
+Text HLabel 3025 2575 0    50   Input Italic 0
 LCD_RW
-Text HLabel 3100 2300 0    50   Input Italic 0
+Text HLabel 3025 2475 0    50   Input Italic 0
 LCD_RS
-Text HLabel 3100 2200 0    50   Input Italic 0
+Text HLabel 3025 2375 0    50   Input Italic 0
 LCD_CS
-Text HLabel 3100 2100 0    50   Input Italic 0
+Text HLabel 3025 2275 0    50   Input Italic 0
 LCD_RST
-Text HLabel 3100 1300 0    50   BiDi Italic 0
+Text HLabel 3025 1475 0    50   BiDi Italic 0
 LCD_D1
-Text HLabel 3100 1200 0    50   BiDi Italic 0
+Text HLabel 3025 1375 0    50   BiDi Italic 0
 LCD_D0
-Text HLabel 3100 1900 0    50   BiDi Italic 0
+Text HLabel 3025 2075 0    50   BiDi Italic 0
 LCD_D7
-Text HLabel 3100 1800 0    50   BiDi Italic 0
+Text HLabel 3025 1975 0    50   BiDi Italic 0
 LCD_D6
-Text HLabel 3100 1700 0    50   BiDi Italic 0
+Text HLabel 3025 1875 0    50   BiDi Italic 0
 LCD_D5
-Text HLabel 3100 1600 0    50   BiDi Italic 0
+Text HLabel 3025 1775 0    50   BiDi Italic 0
 LCD_D4
-Text HLabel 3100 1500 0    50   BiDi Italic 0
+Text HLabel 3025 1675 0    50   BiDi Italic 0
 LCD_D3
-Text HLabel 3100 1400 0    50   BiDi Italic 0
+Text HLabel 3025 1575 0    50   BiDi Italic 0
 LCD_D2
 Wire Wire Line
-	3650 2500 3100 2500
+	3575 2675 3025 2675
 Wire Wire Line
-	3650 2400 3100 2400
+	3575 2575 3025 2575
 Wire Wire Line
-	3650 2300 3100 2300
+	3575 2475 3025 2475
 Wire Wire Line
-	3650 2200 3100 2200
+	3575 2375 3025 2375
 Wire Wire Line
-	3650 2100 3100 2100
+	3575 2275 3025 2275
 Wire Wire Line
-	3100 1900 3650 1900
+	3025 2075 3575 2075
 Wire Wire Line
-	3100 1800 3650 1800
+	3025 1975 3575 1975
 Wire Wire Line
-	3100 1700 3650 1700
+	3025 1875 3575 1875
 Wire Wire Line
-	3100 1600 3650 1600
+	3025 1775 3575 1775
 Wire Wire Line
-	3100 1500 3650 1500
+	3025 1675 3575 1675
 Wire Wire Line
-	3100 1400 3650 1400
+	3025 1575 3575 1575
 Wire Wire Line
-	3100 1300 3650 1300
+	3025 1475 3575 1475
 Wire Wire Line
-	3100 1200 3650 1200
-Wire Notes Line
-	3425 7400 3425 7400
+	3025 1375 3575 1375
 Wire Notes Line
 	6350 7350 6350 3900
 Wire Notes Line
 	1950 3900 1950 7350
 Wire Notes Line
 	1950 7350 6350 7350
+$Comp
+L Switch:SW_MEC_5E SW102
+U 1 1 605FFE93
+P 4650 4450
+F 0 "SW102" H 4650 4835 50  0000 C CNN
+F 1 "KS01-B" H 4650 4744 50  0000 C CNN
+F 2 "Button_Switch_THT:Push_E-Switch_KS01Q01" H 4650 4750 50  0001 C CNN
+F 3 "https://www.tme.com/Document/d236e1ecd83bd375e9db5329b6ca4bc1/ks01.pdf" H 4650 4750 50  0001 C CNN
+F 4 "HIGHLY" H 4650 4450 50  0001 C CNN "Manufac."
+F 5 "Tact Switch redondo color negro" H 4650 4450 50  0001 C CNN "Description"
+F 6 "SW5702210" H 4650 4450 50  0001 C CNN "Elemon part"
+	1    4650 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 4450 4425 4450
+Wire Wire Line
+	4425 4450 4425 4350
+Connection ~ 4425 4350
+Wire Wire Line
+	4425 4350 4450 4350
+Wire Wire Line
+	4875 4350 4875 4450
+Wire Wire Line
+	4875 4450 4850 4450
+Connection ~ 4875 4350
+Wire Wire Line
+	4875 4350 5100 4350
+Wire Wire Line
+	4450 5050 4425 5050
+Wire Wire Line
+	4425 5050 4425 4950
+Connection ~ 4425 4950
+Wire Wire Line
+	4425 4950 4450 4950
+Wire Wire Line
+	4850 5050 4875 5050
+Wire Wire Line
+	4875 5050 4875 4950
+Connection ~ 4875 4950
+Wire Wire Line
+	4875 4950 5100 4950
+Wire Wire Line
+	4450 5650 4425 5650
+Wire Wire Line
+	4425 5650 4425 5550
+Connection ~ 4425 5550
+Wire Wire Line
+	4425 5550 4450 5550
+Wire Wire Line
+	4850 5650 4875 5650
+Wire Wire Line
+	4875 5650 4875 5550
+Connection ~ 4875 5550
+Wire Wire Line
+	4875 5550 5100 5550
+Wire Wire Line
+	4450 6250 4425 6250
+Wire Wire Line
+	4425 6250 4425 6150
+Connection ~ 4425 6150
+Wire Wire Line
+	4425 6150 4450 6150
+Wire Wire Line
+	4850 6250 4875 6250
+Wire Wire Line
+	4875 6250 4875 6150
+Connection ~ 4875 6150
+Wire Wire Line
+	4875 6150 5100 6150
+Wire Wire Line
+	8950 1475 9125 1475
+Wire Wire Line
+	9425 1475 9500 1475
+Wire Wire Line
+	9500 1475 9500 1725
+Wire Wire Line
+	9500 1725 9550 1725
+Wire Wire Line
+	9450 2175 9500 2175
+Wire Wire Line
+	9500 2175 9500 1925
+Wire Wire Line
+	9500 1925 9550 1925
+Wire Wire Line
+	10150 1825 10375 1825
+Wire Wire Line
+	10375 1825 10375 1500
+Text Notes 5200 1075 0    71   Italic 0
+Display TFT de 3.5" con conector \ncompatible con Arduino UNO y \ncontrolador tipo ILI9486
+Wire Notes Line style solid
+	5125 675  5125 1150
+Wire Notes Line style solid
+	5125 1150 7075 1150
+Wire Notes Line style solid
+	7075 1150 7075 675 
+Wire Notes Line style solid
+	7075 675  5125 675 
+$Comp
+L Switch:SW_MEC_5E SW103
+U 1 1 6062066D
+P 4650 5050
+F 0 "SW103" H 4650 5435 50  0000 C CNN
+F 1 "KS01-B" H 4650 5344 50  0000 C CNN
+F 2 "Button_Switch_THT:Push_E-Switch_KS01Q01" H 4650 5350 50  0001 C CNN
+F 3 "https://www.tme.com/Document/d236e1ecd83bd375e9db5329b6ca4bc1/ks01.pdf" H 4650 5350 50  0001 C CNN
+F 4 "HIGHLY" H 4650 5050 50  0001 C CNN "Manufac."
+F 5 "Tact Switch redondo color negro" H 4650 5050 50  0001 C CNN "Description"
+F 6 "SW5702210" H 4650 5050 50  0001 C CNN "Elemon part"
+	1    4650 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5E SW104
+U 1 1 60627705
+P 4650 5650
+F 0 "SW104" H 4650 6035 50  0000 C CNN
+F 1 "KS01-B" H 4650 5944 50  0000 C CNN
+F 2 "Button_Switch_THT:Push_E-Switch_KS01Q01" H 4650 5950 50  0001 C CNN
+F 3 "https://www.tme.com/Document/d236e1ecd83bd375e9db5329b6ca4bc1/ks01.pdf" H 4650 5950 50  0001 C CNN
+F 4 "HIGHLY" H 4650 5650 50  0001 C CNN "Manufac."
+F 5 "Tact Switch redondo color negro" H 4650 5650 50  0001 C CNN "Description"
+F 6 "SW5702210" H 4650 5650 50  0001 C CNN "Elemon part"
+	1    4650 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5E SW105
+U 1 1 6062EAF1
+P 4650 6250
+F 0 "SW105" H 4650 6635 50  0000 C CNN
+F 1 "KS01-B" H 4650 6544 50  0000 C CNN
+F 2 "Button_Switch_THT:Push_E-Switch_KS01Q01" H 4650 6550 50  0001 C CNN
+F 3 "https://www.tme.com/Document/d236e1ecd83bd375e9db5329b6ca4bc1/ks01.pdf" H 4650 6550 50  0001 C CNN
+F 4 "HIGHLY" H 4650 6250 50  0001 C CNN "Manufac."
+F 5 "Tact Switch redondo color negro" H 4650 6250 50  0001 C CNN "Description"
+F 6 "SW5702210" H 4650 6250 50  0001 C CNN "Elemon part"
+	1    4650 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Buzzer BZ101
+U 1 1 606C59D7
+P 9050 3650
+F 0 "BZ101" H 9250 3950 50  0000 C CNN
+F 1 "Buzzer" H 9250 3850 50  0000 C CNN
+F 2 "Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm" V 9025 3750 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/e98051deb5318767fbb4534d8e5fd23c/ld-bzeg-1205.pdf" V 9025 3750 50  0001 C CNN
+F 4 "Loudity" H 9050 3650 50  0001 C CNN "Manufac."
+F 5 "Buzzer 12mm con oscilador de 5V" H 9050 3650 50  0001 C CNN "Description"
+F 6 "OS9209100" H 9050 3650 50  0001 C CNN "Elemon part"
+	1    9050 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L New_Library:Display_TFT_3.5_inch DS101
+U 1 1 6058B937
+P 4325 1975
+F 0 "DS101" H 4325 2890 50  0000 C CNN
+F 1 "Display_TFT_3.5_inch" H 4325 2799 50  0000 C CNN
+F 2 "TP_Final:Display_TFT_3.5_inch" H 3725 2375 50  0001 C CNN
+F 3 "http://www.lcdwiki.com/res/MAR3501/QD-TFT3502%20specification_v1.1.pdf" H 3725 2375 50  0001 C CNN
+F 4 "ILI9486" H 4325 1975 50  0001 C CNN "Controlador"
+F 5 "mcufriend" H 4325 1975 50  0001 C CNN "Fabricante"
+F 6 "Display TFT de 3.5\", conector compatible Arduino UNO, controlador ILI9486" H 4325 1975 50  0001 C CNN "Descripción"
+F 7 "N/A" H 4325 1975 50  0001 C CNN "Part #"
+	1    4325 1975
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

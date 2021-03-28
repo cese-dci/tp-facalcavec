@@ -21,7 +21,9 @@ F 0 "U102" H 5500 2100 50  0000 C CNN
 F 1 "STM32F103RBTx" H 5500 2000 50  0000 C CNN
 F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 4300 2200 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 4900 3900 50  0001 C CNN
-F 4 "497-6066-ND" H 4900 3900 50  0001 C CNN "Digikey part"
+F 4 "ST" H 4900 3900 50  0001 C CNN "Manufac."
+F 5 "Medium-density performance line ARM®-based 32-bit MCU" H 4900 3900 50  0001 C CNN "Description"
+F 6 "497-6066-ND" H 4900 3900 50  0001 C CNN "Digikey part"
 	1    4900 3900
 	-1   0    0    -1  
 $EndComp
@@ -33,7 +35,9 @@ F 0 "U103" H 1900 4350 50  0000 C CNN
 F 1 "24LC256" H 1950 4250 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1650 4700 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/devicedoc/21203m.pdf" H 1650 4700 50  0001 C CNN
-F 4 "24LC256T-I/SNDKR-ND" H 1650 4700 50  0001 C CNN "Digikey part"
+F 4 "Microchip" H 1650 4700 50  0001 C CNN "Manufac."
+F 5 "256K I2C™ CMOS Serial EEPROM" H 1650 4700 50  0001 C CNN "Description"
+F 6 "24LC256T-I/SNDKR-ND" H 1650 4700 50  0001 C CNN "Digikey part"
 	1    1650 4700
 	1    0    0    -1  
 $EndComp
@@ -65,23 +69,13 @@ U 1 1 605E7E7E
 P 6050 5550
 F 0 "Y102" V 5825 5450 50  0000 L CNN
 F 1 "32.768Khz" V 5725 5350 50  0000 L CNN
-F 2 "Crystal:Crystal_AT310_D3.0mm_L10.0mm_Horizontal_1EP_style2" H 6050 5550 50  0001 C CNN
-F 3 "~" H 6050 5550 50  0001 C CNN
-F 4 "OS9009150" V 6050 5550 50  0001 C CNN "Elemon part"
+F 2 "Crystal:Crystal_C26-LF_D2.1mm_L6.5mm_Horizontal_1EP_style2" H 6050 5550 50  0001 C CNN
+F 3 "https://www.endrich.com/sixcms/media.php/2/CTX%203x8.pdf" H 6050 5550 50  0001 C CNN
+F 4 "CQ" V 6050 5550 50  0001 C CNN "Manufac."
+F 5 "32.768 kHz LOW FREQUENCY SMD CRYSTAL" V 6050 5550 50  0001 C CNN "Description"
+F 6 "OS9009152" V 6050 5550 50  0001 C CNN "Elemon part"
 	1    6050 5550
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:Crystal Y101
-U 1 1 60521572
-P 6050 3550
-F 0 "Y101" V 6004 3681 50  0000 L CNN
-F 1 "8Mhz" V 6095 3681 50  0000 L CNN
-F 2 "Crystal:Crystal_HC49-4H_Vertical" H 6050 3550 50  0001 C CNN
-F 3 "~" H 6050 3550 50  0001 C CNN
-F 4 "OS9009452" V 6050 3550 50  0001 C CNN "Elemon part"
-	1    6050 3550
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:C C110
@@ -135,7 +129,9 @@ F 0 "U101" H 2000 2300 50  0000 R CNN
 F 1 "LM35-ZD" H 2100 2200 50  0000 R CNN
 F 2 "Package_TO_SOT_THT:TO-92_HandSolder" H 1700 1650 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm35.pdf" H 1650 1900 50  0001 C CNN
-F 4 "296-35151-1-ND" H 1650 1900 50  0001 C CNN "Digikey part"
+F 4 "Texas" H 1650 1900 50  0001 C CNN "Manufac."
+F 5 "precision integrated-circuit temperature" H 1650 1900 50  0001 C CNN "Descripction"
+F 6 "296-35151-1-ND" H 1650 1900 50  0001 C CNN "Digikey part"
 	1    1650 1900
 	1    0    0    -1  
 $EndComp
@@ -233,7 +229,9 @@ F 0 "J101" H 10350 1300 50  0000 L CNN
 F 1 "BG 1x2" H 10300 1200 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" H 10450 1050 50  0001 C CNN
 F 3 "~" H 10450 1050 50  0001 C CNN
-F 4 "BO5811874" H 10450 1050 50  0001 C CNN "Eleon part"
+F 4 "XINYA" H 10450 1050 50  0001 C CNN "Manufac."
+F 5 "Bloque de terminales de tornillo PCB " H 10450 1050 50  0001 C CNN "Description"
+F 6 "BO5811874" H 10450 1050 50  0001 C CNN "Elemon part"
 	1    10450 1050
 	1    0    0    -1  
 $EndComp
@@ -329,18 +327,6 @@ Wire Wire Line
 	10200 2150 10200 2550
 Wire Wire Line
 	10200 2550 10250 2550
-$Comp
-L Connector:Screw_Terminal_01x02 J102
-U 1 1 605E7E92
-P 10450 2550
-F 0 "J102" H 10350 2800 50  0000 L CNN
-F 1 "BD 1x2" H 10300 2700 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" H 10450 2550 50  0001 C CNN
-F 3 "~" H 10450 2550 50  0001 C CNN
-F 4 "BO5811874" H 10450 2550 50  0001 C CNN "Elemon part"
-	1    10450 2550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9350 2900 9350 3000
 Wire Wire Line
@@ -433,18 +419,6 @@ Wire Wire Line
 	10200 3650 10200 4050
 Wire Wire Line
 	10200 4050 10250 4050
-$Comp
-L Connector:Screw_Terminal_01x02 J103
-U 1 1 605E7E98
-P 10450 4050
-F 0 "J103" H 10350 4300 50  0000 L CNN
-F 1 "BG 1x2" H 10300 4200 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" H 10450 4050 50  0001 C CNN
-F 3 "~" H 10450 4050 50  0001 C CNN
-F 4 "BO5811874" H 10450 4050 50  0001 C CNN "Elemon part"
-	1    10450 4050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9350 4400 9350 4500
 Wire Wire Line
@@ -560,7 +534,9 @@ F 0 "J104" H 10350 5950 50  0000 L CNN
 F 1 "BG 1x3" H 10300 5850 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal" H 10450 5600 50  0001 C CNN
 F 3 "~" H 10450 5600 50  0001 C CNN
-F 4 "BO5811875" H 10450 5600 50  0001 C CNN "Elemon part"
+F 4 "XINYA" H 10450 5600 50  0001 C CNN "Manufac."
+F 5 "BO5811875" H 10450 5600 50  0001 C CNN "Elemon part"
+F 6 "Bloque de terminales de tornillo PCB " H 10450 5600 50  0001 C CNN "Description"
 	1    10450 5600
 	1    0    0    -1  
 $EndComp
@@ -571,47 +547,13 @@ L Relay:G5V-2 K101
 U 1 1 605E7EA8
 P 9350 1100
 F 0 "K101" H 9300 550 50  0000 L CNN
-F 1 "EC2-3NU" H 9200 450 50  0000 L CNN
+F 1 "2FORM-C 2A 12VCC" H 9200 450 50  0000 L CNN
 F 2 "Relay_THT:Relay_DPDT_Omron_G5V-2" H 9350 1100 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf" H 9350 1100 50  0001 C CNN
-F 4 "RE4550956" H 9350 1100 50  0001 C CNN "Elemon part"
+F 3 "http://www.handouk.co.kr/english/02_product/telecom/products/bc3.php" H 9350 1100 50  0001 C CNN
+F 4 "HANDOUK" H 9350 1100 50  0001 C CNN "Manufact."
+F 5 "2FORM-C 2A 12VCC P/CI DIP BC3-12H (20.5x10x11.8MM)" H 9350 1100 50  0001 C CNN "Description"
+F 6 "RE4550960" H 9350 1100 50  0001 C CNN "Elemon part"
 	1    9350 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Relay:G5V-2 K102
-U 1 1 605E7EA9
-P 9350 2600
-F 0 "K102" H 9300 2050 50  0000 L CNN
-F 1 "EC2-3NU" H 9150 1950 50  0000 L CNN
-F 2 "Relay_THT:Relay_DPDT_Omron_G5V-2" H 9350 2600 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf" H 9350 2600 50  0001 C CNN
-F 4 "RE4550956" H 9350 2600 50  0001 C CNN "Elemon part"
-	1    9350 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Relay:G5V-2 K103
-U 1 1 605E7EAA
-P 9350 4100
-F 0 "K103" H 9300 3550 50  0000 L CNN
-F 1 "EC2-3NU" H 9200 3450 50  0000 L CNN
-F 2 "Relay_THT:Relay_DPDT_Omron_G5V-2" H 9350 4100 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf" H 9350 4100 50  0001 C CNN
-F 4 "RE4550956" H 9350 4100 50  0001 C CNN "Elemon part"
-	1    9350 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Relay:G5V-2 K104
-U 1 1 606A9DDE
-P 9350 5600
-F 0 "K104" H 9300 5050 50  0000 L CNN
-F 1 "EC2-3NU" H 9200 4950 50  0000 L CNN
-F 2 "Relay_THT:Relay_DPDT_Omron_G5V-2" H 9350 5600 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf" H 9350 5600 50  0001 C CNN
-F 4 "RE4550956" H 9350 5600 50  0001 C CNN "Elemon part"
-	1    9350 5600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1296,7 +1238,7 @@ L Connector_Generic:Conn_01x04 J105
 U 1 1 609E64F1
 P 2100 6700
 F 0 "J105" H 2050 7050 50  0000 L CNN
-F 1 "Poste 1x4" H 2000 6950 50  0000 L CNN
+F 1 "Pin Header1x4" H 1900 6950 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2100 6700 50  0001 C CNN
 F 3 "~" H 2100 6700 50  0001 C CNN
 	1    2100 6700
@@ -1307,7 +1249,7 @@ L Connector_Generic:Conn_02x04_Odd_Even J106
 U 1 1 609E7A2A
 P 3650 6700
 F 0 "J106" H 3700 7017 50  0000 C CNN
-F 1 "Poste 2x4" H 3700 6926 50  0000 C CNN
+F 1 "Pin socket 2x4" H 3700 6926 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 3650 6700 50  0001 C CNN
 F 3 "~" H 3650 6700 50  0001 C CNN
 	1    3650 6700
@@ -1318,17 +1260,17 @@ L Connector_Generic:Conn_02x03_Odd_Even J107
 U 1 1 609EA85D
 P 5500 6750
 F 0 "J107" H 5550 6500 50  0000 C CNN
-F 1 "Poste 2x3" H 5600 6400 50  0000 C CNN
+F 1 "Pin Header 2x3 " H 5600 6400 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 5500 6750 50  0001 C CNN
 F 3 "~" H 5500 6750 50  0001 C CNN
 	1    5500 6750
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0141
+L power:+3V3 #PWR0139
 U 1 1 609EDE60
 P 1700 6600
-F 0 "#PWR0141" H 1700 6450 50  0001 C CNN
+F 0 "#PWR0139" H 1700 6450 50  0001 C CNN
 F 1 "+3V3" H 1715 6773 50  0000 C CNN
 F 2 "" H 1700 6600 50  0001 C CNN
 F 3 "" H 1700 6600 50  0001 C CNN
@@ -1377,10 +1319,10 @@ UART_RX
 Text Label 4300 6900 2    50   Italic 0
 UART_TX
 $Comp
-L power:GNDD #PWR0142
+L power:GNDD #PWR0140
 U 1 1 60C90DA3
 P 4050 6600
-F 0 "#PWR0142" H 4050 6350 50  0001 C CNN
+F 0 "#PWR0140" H 4050 6350 50  0001 C CNN
 F 1 "GNDD" V 4054 6490 50  0000 R CNN
 F 2 "" H 4050 6600 50  0001 C CNN
 F 3 "" H 4050 6600 50  0001 C CNN
@@ -1478,10 +1420,10 @@ F 3 "" H 5300 6850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3V3 #PWR0139
+L power:+3V3 #PWR0141
 U 1 1 60EE4839
 P 5250 6600
-F 0 "#PWR0139" H 5250 6450 50  0001 C CNN
+F 0 "#PWR0141" H 5250 6450 50  0001 C CNN
 F 1 "+3V3" H 5265 6773 50  0000 C CNN
 F 2 "" H 5250 6600 50  0001 C CNN
 F 3 "" H 5250 6600 50  0001 C CNN
@@ -1489,10 +1431,10 @@ F 3 "" H 5250 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0140
+L power:+3V3 #PWR0142
 U 1 1 60EE585E
 P 5850 6600
-F 0 "#PWR0140" H 5850 6450 50  0001 C CNN
+F 0 "#PWR0142" H 5850 6450 50  0001 C CNN
 F 1 "+3V3" H 5865 6773 50  0000 C CNN
 F 2 "" H 5850 6600 50  0001 C CNN
 F 3 "" H 5850 6600 50  0001 C CNN
@@ -1785,5 +1727,89 @@ Wire Wire Line
 Wire Wire Line
 	2900 6600 3350 6600
 Text Notes 2400 750  0    59   ~ 12
-Capacitores de desacople de U402
+Capacitores de desacople de U102
+$Comp
+L Device:Crystal Y101
+U 1 1 60521572
+P 6050 3550
+F 0 "Y101" V 6004 3681 50  0000 L CNN
+F 1 "8Mhz" V 6095 3681 50  0000 L CNN
+F 2 "Crystal:Crystal_HC49-4H_Vertical" H 6050 3550 50  0001 C CNN
+F 3 "~" H 6050 3550 50  0001 C CNN
+F 4 "ECS Inc." V 6050 3550 50  0001 C CNN "Manufac."
+F 5 "OS9009452" V 6050 3550 50  0001 C CNN "Elemon part"
+F 6 "Cristal 8Mhz, HC-49US, low profile, 20pF capaciadad de carga" V 6050 3550 50  0001 C CNN "Description"
+	1    6050 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Relay:G5V-2 K102
+U 1 1 606F1C5E
+P 9350 2600
+F 0 "K102" H 9300 2050 50  0000 L CNN
+F 1 "2FORM-C 2A 12VCC" H 9200 1950 50  0000 L CNN
+F 2 "Relay_THT:Relay_DPDT_Omron_G5V-2" H 9350 2600 50  0001 C CNN
+F 3 "http://www.handouk.co.kr/english/02_product/telecom/products/bc3.php" H 9350 2600 50  0001 C CNN
+F 4 "HANDOUK" H 9350 2600 50  0001 C CNN "Manufact."
+F 5 "2FORM-C 2A 12VCC P/CI DIP BC3-12H (20.5x10x11.8MM)" H 9350 2600 50  0001 C CNN "Description"
+F 6 "RE4550960" H 9350 2600 50  0001 C CNN "Elemon part"
+	1    9350 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Relay:G5V-2 K103
+U 1 1 6071E256
+P 9350 4100
+F 0 "K103" H 9300 3550 50  0000 L CNN
+F 1 "2FORM-C 2A 12VCC" H 9200 3450 50  0000 L CNN
+F 2 "Relay_THT:Relay_DPDT_Omron_G5V-2" H 9350 4100 50  0001 C CNN
+F 3 "http://www.handouk.co.kr/english/02_product/telecom/products/bc3.php" H 9350 4100 50  0001 C CNN
+F 4 "HANDOUK" H 9350 4100 50  0001 C CNN "Manufact."
+F 5 "2FORM-C 2A 12VCC P/CI DIP BC3-12H (20.5x10x11.8MM)" H 9350 4100 50  0001 C CNN "Description"
+F 6 "RE4550960" H 9350 4100 50  0001 C CNN "Elemon part"
+	1    9350 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Relay:G5V-2 K104
+U 1 1 607322CA
+P 9350 5600
+F 0 "K104" H 9300 5050 50  0000 L CNN
+F 1 "2FORM-C 2A 12VCC" H 9200 4950 50  0000 L CNN
+F 2 "Relay_THT:Relay_DPDT_Omron_G5V-2" H 9350 5600 50  0001 C CNN
+F 3 "http://www.handouk.co.kr/english/02_product/telecom/products/bc3.php" H 9350 5600 50  0001 C CNN
+F 4 "HANDOUK" H 9350 5600 50  0001 C CNN "Manufact."
+F 5 "2FORM-C 2A 12VCC P/CI DIP BC3-12H (20.5x10x11.8MM)" H 9350 5600 50  0001 C CNN "Description"
+F 6 "RE4550960" H 9350 5600 50  0001 C CNN "Elemon part"
+	1    9350 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J102
+U 1 1 607603D4
+P 10450 2550
+F 0 "J102" H 10350 2800 50  0000 L CNN
+F 1 "BG 1x2" H 10300 2700 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" H 10450 2550 50  0001 C CNN
+F 3 "~" H 10450 2550 50  0001 C CNN
+F 4 "XINYA" H 10450 2550 50  0001 C CNN "Manufac."
+F 5 "Bloque de terminales de tornillo PCB " H 10450 2550 50  0001 C CNN "Description"
+F 6 "BO5811874" H 10450 2550 50  0001 C CNN "Elemon part"
+	1    10450 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J103
+U 1 1 60774060
+P 10450 4050
+F 0 "J103" H 10350 4300 50  0000 L CNN
+F 1 "BG 1x2" H 10300 4200 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" H 10450 4050 50  0001 C CNN
+F 3 "~" H 10450 4050 50  0001 C CNN
+F 4 "XINYA" H 10450 4050 50  0001 C CNN "Manufac."
+F 5 "Bloque de terminales de tornillo PCB " H 10450 4050 50  0001 C CNN "Description"
+F 6 "BO5811874" H 10450 4050 50  0001 C CNN "Elemon part"
+	1    10450 4050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
