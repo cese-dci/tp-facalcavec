@@ -8,7 +8,7 @@ En el se encontrará el diseño del esquemático y PCB del TP final de la carrer
 
 ## Consideraciones de diseño del PCB
 
-Se detallan a continuación los considerandos a tener en cuenta en el diseño y construccióndel circuito impreso del cargador modular de baterías industriales.
+Se detallan a continuación los considerandos a tener en cuenta en el diseño y construcción del circuito impreso del cargador modular de baterías industriales.
 
 ### Dimensiones y ubicación
 La placa debe adaptarse a un gabinete ya existente, por lo tanto sus medidas no deben superar los siguientes límites
@@ -37,7 +37,7 @@ Centro botón 3    : ( 72.8 mm, -2.5 mm )
 Centro botón 4    : ( 98.2 mm, -2.5 mm )  
 
 ### Estándares de fabricación
-Debido a la poca densidad de conexiones entre componentes el diseño se realizará endoble faz ( dos capas).
+Debido a la poca densidad de conexiones entre componentes el diseño se realizará en doble faz ( dos capas ).
 &nbsp;
 De acuerdo a la documentación aportada por el fabricantede PCB Mayer se implementará la tecnología “8MILS” donde  
 &nbsp;
