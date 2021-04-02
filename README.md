@@ -1,6 +1,6 @@
 # Cargador modular de baterías industriales con acceso remoto
 
-Repositorio perteneciente al curso CESE de la materia Diseño de circuitos impresos.
+Repositorio perteneciente a la materia Diseño de circuitos impresos del CESE - 2021.
 
 En el se encontrará el diseño del esquemático y PCB del TP final de la carrera.
 
@@ -8,7 +8,7 @@ En el se encontrará el diseño del esquemático y PCB del TP final de la carrer
 
 ## Consideraciones de diseño del PCB
 
-Se detallan a continuación los considerandos a teneren cuenta en el diseño y construccióndel circuito impreso del cargador modular de baterías industriales.
+Se detallan a continuación los considerandos a tener en cuenta en el diseño y construccióndel circuito impreso del cargador modular de baterías industriales.
 
 ### Dimensiones y ubicación
 La placa debe adaptarse a un gabinete ya existente, por lo tanto sus medidas no deben superar los siguientes límites
