@@ -445,7 +445,7 @@ U 1 1 6058ED85
 P 1200 3500
 F 0 "J112" H 1200 3150 50  0000 C CNN
 F 1 "Conector pol. 1x3" H 1300 3250 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1200 3500 50  0001 C CNN
+F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 1200 3500 50  0001 C CNN
 F 3 "http://www.aukconnector.com/object/AUKDrawing/VHXXD-XX-H.pdf" H 1200 3500 50  0001 C CNN
 F 4 "AUK Contractors" H 1200 3500 50  0001 C CNN "Manufac."
 F 5 "MA-03 VERT.3A P=2.5MM P/C.I" H 1200 3500 50  0001 C CNN "Description"
@@ -1690,10 +1690,10 @@ F 3 "~" H 2050 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDD #PWR0234
+L power:GNDD #PWR0233
 U 1 1 60D2089A
 P 2050 7075
-F 0 "#PWR0234" H 2050 6825 50  0001 C CNN
+F 0 "#PWR0233" H 2050 6825 50  0001 C CNN
 F 1 "GNDD" H 2054 6920 50  0000 C CNN
 F 2 "" H 2050 7075 50  0001 C CNN
 F 3 "" H 2050 7075 50  0001 C CNN
@@ -1825,10 +1825,10 @@ F 3 "~" H 6050 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDD #PWR0230
+L power:GNDD #PWR0231
 U 1 1 60D7FDCF
 P 6050 6700
-F 0 "#PWR0230" H 6050 6450 50  0001 C CNN
+F 0 "#PWR0231" H 6050 6450 50  0001 C CNN
 F 1 "GNDD" H 6054 6545 50  0000 C CNN
 F 2 "" H 6050 6700 50  0001 C CNN
 F 3 "" H 6050 6700 50  0001 C CNN
@@ -1836,10 +1836,10 @@ F 3 "" H 6050 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDD #PWR0231
+L power:GNDD #PWR0232
 U 1 1 60D7FDD9
 P 6550 6700
-F 0 "#PWR0231" H 6550 6450 50  0001 C CNN
+F 0 "#PWR0232" H 6550 6450 50  0001 C CNN
 F 1 "GNDD" H 6554 6545 50  0000 C CNN
 F 2 "" H 6550 6700 50  0001 C CNN
 F 3 "" H 6550 6700 50  0001 C CNN
@@ -1895,17 +1895,8 @@ Wire Wire Line
 Wire Wire Line
 	3900 6350 4050 6350
 Wire Wire Line
-	4800 6350 4800 6450
-Wire Wire Line
-	4800 6450 4900 6450
-Connection ~ 4800 6350
-Wire Wire Line
-	4800 6350 4900 6350
-Wire Wire Line
 	4550 6400 4550 6350
 Connection ~ 4550 6350
-Wire Wire Line
-	4550 6350 4800 6350
 Wire Wire Line
 	4050 6400 4050 6350
 Connection ~ 4050 6350
@@ -1921,53 +1912,15 @@ Wire Wire Line
 Connection ~ 6050 6350
 Wire Wire Line
 	6050 6350 6550 6350
-Wire Wire Line
-	5500 6450 5600 6450
 $Comp
-L power:GNDD #PWR0233
-U 1 1 60D9167D
-P 5600 6750
-F 0 "#PWR0233" H 5600 6500 50  0001 C CNN
-F 1 "GNDD" H 5604 6595 50  0000 C CNN
-F 2 "" H 5600 6750 50  0001 C CNN
-F 3 "" H 5600 6750 50  0001 C CNN
-	1    5600 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C138
-U 1 1 60D91677
-P 5600 6600
-F 0 "C138" H 5715 6646 50  0000 L CNN
-F 1 ".1" H 5715 6555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5638 6450 50  0001 C CNN
-F 3 "~" H 5600 6600 50  0001 C CNN
-	1    5600 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Regulator_Linear:LD3985G33R_TSOT23 U108
-U 1 1 60D8B68E
-P 5200 6450
-F 0 "U108" H 5200 6792 50  0000 C CNN
-F 1 "LD3985M33R_TSOT23" H 5200 6701 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 5200 6775 50  0001 C CIN
-F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00003395.pdf" H 5200 6500 50  0001 C CNN
-F 4 "ST" H 5200 6450 50  0001 C CNN "Manufac."
-F 5 "Ultra low drop and low noise BiCMOS 3.3 voltage regulators" H 5200 6450 50  0001 C CNN "Description"
-F 6 "497-3504-1-ND" H 5200 6450 50  0001 C CNN "Difikey part"
-	1    5200 6450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR0232
+L power:GNDD #PWR0230
 U 1 1 60E6D511
-P 5200 6750
-F 0 "#PWR0232" H 5200 6500 50  0001 C CNN
-F 1 "GNDD" H 5204 6595 50  0000 C CNN
-F 2 "" H 5200 6750 50  0001 C CNN
-F 3 "" H 5200 6750 50  0001 C CNN
-	1    5200 6750
+P 5200 6700
+F 0 "#PWR0230" H 5200 6450 50  0001 C CNN
+F 1 "GNDD" H 5204 6545 50  0000 C CNN
+F 2 "" H 5200 6700 50  0001 C CNN
+F 3 "" H 5200 6700 50  0001 C CNN
+	1    5200 6700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2097,12 +2050,10 @@ Text Notes 800  6400 0    50   Italic 0
 +12,8V
 Text Notes 900  6500 0    50   Italic 0
 GND
-Text Notes 10250 1950 0    50   Italic 0
-Al control del \ncargador 1
 Text Notes 10250 3850 0    50   Italic 0
-Al control del \ncargador 2
+Al control de tensión \nde la fuente 2
 Text Notes 10250 5750 0    50   Italic 0
-Al control del \ncargador 3
+Al control de tensión \nde la fuente 3
 Wire Notes Line
 	5250 5850 7000 5850
 Wire Notes Line
@@ -2269,7 +2220,7 @@ U 1 1 607EBBD8
 P 1200 4250
 F 0 "J114" H 1200 3900 50  0000 C CNN
 F 1 "Conector pol. 1x3" H 1300 4000 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1200 4250 50  0001 C CNN
+F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 1200 4250 50  0001 C CNN
 F 3 "http://www.aukconnector.com/object/AUKDrawing/VHXXD-XX-H.pdf" H 1200 4250 50  0001 C CNN
 F 4 "AUK Contractors" H 1200 4250 50  0001 C CNN "Manufac."
 F 5 "MA-03 VERT.3A P=2.5MM P/C.I" H 1200 4250 50  0001 C CNN "Description"
@@ -2283,7 +2234,7 @@ U 1 1 607F579C
 P 1200 5050
 F 0 "J115" H 1200 4700 50  0000 C CNN
 F 1 "Conector pol. 1x3" H 1300 4800 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1200 5050 50  0001 C CNN
+F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 1200 5050 50  0001 C CNN
 F 3 "http://www.aukconnector.com/object/AUKDrawing/VHXXD-XX-H.pdf" H 1200 5050 50  0001 C CNN
 F 4 "AUK Contractors" H 1200 5050 50  0001 C CNN "Manufac."
 F 5 "MA-03 VERT.3A P=2.5MM P/C.I" H 1200 5050 50  0001 C CNN "Description"
@@ -2305,4 +2256,24 @@ F 6 "CI2702050" H 8500 3200 50  0001 C CNN "Elemon part"
 	1    8500 3200
 	1    0    0    -1  
 $EndComp
+Text Notes 10250 1950 0    50   Italic 0
+Al control de tensión \nde la fuente 1
+$Comp
+L Regulator_Linear:LD1117S33TR_SOT223 U108
+U 1 1 60979DB7
+P 5200 6350
+F 0 "U108" H 5200 6592 50  0000 C CNN
+F 1 "LD1117S33TR_SOT223" H 5200 6501 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5200 6550 50  0001 C CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 5300 6100 50  0001 C CNN
+F 4 "ST" H 5200 6350 50  0001 C CNN "Manufac."
+F 5 "Fixed low drop positive voltage regulator" H 5200 6350 50  0001 C CNN "Description"
+F 6 "497-1242-1-ND" H 5200 6350 50  0001 C CNN "Digikey part"
+	1    5200 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 6700 5200 6650
+Wire Wire Line
+	4550 6350 4900 6350
 $EndSCHEMATC
