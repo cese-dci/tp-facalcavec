@@ -548,4 +548,81 @@ DF 63 B4 75 44 9B F9 34 80 B3 9E 81 96 5A A2 B7 DD F0 FF CD E1 AC 09 6C 96 82 FC
 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L Mechanical:MountingHole H101
+U 1 1 608D0512
+P 1750 6500
+F 0 "H101" H 1650 6650 50  0000 L CNN
+F 1 "MountingHole" H 1500 6350 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad" H 1750 6500 50  0001 C CNN
+F 3 "~" H 1750 6500 50  0001 C CNN
+	1    1750 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H102
+U 1 1 608D1797
+P 2500 6500
+F 0 "H102" H 2400 6650 50  0000 L CNN
+F 1 "MountingHole" H 2250 6350 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad" H 2500 6500 50  0001 C CNN
+F 3 "~" H 2500 6500 50  0001 C CNN
+	1    2500 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H103
+U 1 1 608D1907
+P 3250 6500
+F 0 "H103" H 3150 6650 50  0000 L CNN
+F 1 "MountingHole" H 3000 6350 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad" H 3250 6500 50  0001 C CNN
+F 3 "~" H 3250 6500 50  0001 C CNN
+	1    3250 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H104
+U 1 1 608D1A12
+P 4000 6500
+F 0 "H104" H 3900 6650 50  0000 L CNN
+F 1 "MountingHole" H 3750 6350 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad" H 4000 6500 50  0001 C CNN
+F 3 "~" H 4000 6500 50  0001 C CNN
+	1    4000 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID101
+U 1 1 60720655
+P 4750 6500
+F 0 "FID101" H 4625 6625 50  0000 L CNN
+F 1 "Fiducial" H 4600 6350 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 4750 6500 50  0001 C CNN
+F 3 "~" H 4750 6500 50  0001 C CNN
+	1    4750 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID102
+U 1 1 60720A17
+P 5500 6500
+F 0 "FID102" H 5375 6625 50  0000 L CNN
+F 1 "Fiducial" H 5350 6350 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 5500 6500 50  0001 C CNN
+F 3 "~" H 5500 6500 50  0001 C CNN
+	1    5500 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID103
+U 1 1 60720B5E
+P 6250 6500
+F 0 "FID103" H 6125 6625 50  0000 L CNN
+F 1 "Fiducial" H 6100 6350 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 6250 6500 50  0001 C CNN
+F 3 "~" H 6250 6500 50  0001 C CNN
+	1    6250 6500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
