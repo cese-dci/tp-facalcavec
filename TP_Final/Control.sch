@@ -995,7 +995,7 @@ U 1 1 605E7EA7
 P 5850 1750
 F 0 "BT101" H 5750 2150 50  0000 L CNN
 F 1 "Battery_Cell" H 5700 2050 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_3001_1x12mm" V 5850 1810 50  0001 C CNN
+F 2 "Battery:BatteryHolder_Keystone_3034_1x20mm" V 5850 1810 50  0001 C CNN
 F 3 "~" V 5850 1810 50  0001 C CNN
 F 4 "36-2997-ND" H 5850 1750 50  0001 C CNN "Digikey part"
 	1    5850 1750

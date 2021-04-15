@@ -1,4 +1,4 @@
-update=jue 08 abr 2021 20:33:54 -03
+update=mié 14 abr 2021 18:05:36 -03
 version=1
 last_client=kicad
 [general]
@@ -39,13 +39,16 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.25
-TrackWidth2=0.381
-TrackWidth3=0.635
-TrackWidth4=1.016
+TrackWidth2=0.2794
+TrackWidth3=0.381
+TrackWidth4=0.635
+TrackWidth5=1.016
 ViaDiameter1=0.8
 ViaDrill1=0.4
 ViaDiameter2=1.016
 ViaDrill2=0.508
+ViaDiameter3=1.524
+ViaDrill3=0.762
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -254,7 +257,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=prueba
 Clearance=0.3048
-TrackWidth=0.25
+TrackWidth=0.2794
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
