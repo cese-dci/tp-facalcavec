@@ -19,22 +19,22 @@ Ancho máximo      : 100 mm
 ### Coordenadas de los agujero de montaje ( vista la placa de frente )
 
 Agujero inferior izquierdo  : ( 0 mm, 0 mm )  
-Agujero inferior derecho    : ( 185 mm, 0 mm )  
-Agujero superior izquierdo  : ( 0 mm, -87 mm )  
-Agujero superior derecho    : ( 185 mm, -87 mm )  
+Agujero inferior derecho    : ( 184 mm, 0 mm )  
+Agujero superior izquierdo  : ( 0 mm, -86 mm )  
+Agujero superior derecho    : ( 184 mm, -86 mm )  
 
-### Coordenadas del Display gráfico respecto del agujeroinferior izquierdo
+### Coordenadas del Display gráfico respecto del agujero inferior izquierdo
 
-Ángulo inferior izquierdo   : ( 18 mm, -20 mm )  
-Ángulo inferior derecho     : ( 96 mm, -20 mm )  
-Ángulo superior izquierdo   : ( 0 mm, -72 mm )  
-Ángulo superior derecho     : ( 96 mm, -72 mm )  
+Ángulo inferior izquierdo   : ( 16 mm, -18.5 mm )  
+Ángulo inferior derecho     : ( 102.5 mm, -18.5 mm )  
+Ángulo superior izquierdo   : ( 16 mm, -72 mm )  
+Ángulo superior derecho     : ( 102.5 mm, -72 mm )  
 
 ### Coordenadas del teclado respecto del agujero inferior izquierdo  
-Centro botón 1    : ( 22 mm, -2.5 mm )  
-Centro botón 2    : ( 47.4 mm, -2.5 mm )  
-Centro botón 3    : ( 72.8 mm, -2.5 mm )  
-Centro botón 4    : ( 98.2 mm, -2.5 mm )  
+Centro botón 1    : ( 21 mm, -2 mm )  
+Centro botón 2    : ( 46.7 mm, -2 mm )  
+Centro botón 3    : ( 72 mm, -2 mm )  
+Centro botón 4    : ( 997.5 mm, -2 mm )  
 
 ### Estándares de fabricación
 Debido a la poca densidad de conexiones entre componentes el diseño se realizará en doble faz ( dos capas ).
