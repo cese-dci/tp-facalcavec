@@ -15,8 +15,9 @@
     (date 2021-03-21)
     (rev 0)
     (company proba)
-    (comment 1 "Revisor: Diego Brengi")
-    (comment 2 "Autor: Felipe A. Calcavecchia")
+    (comment 1 "Revisor2: Cristian Trinidad")
+    (comment 2 "Revisor1: Diego Brengi")
+    (comment 3 "Autor: Felipe A. Calcavecchia")
   )
 
   (layers
