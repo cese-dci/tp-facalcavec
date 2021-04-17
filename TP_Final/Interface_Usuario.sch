@@ -909,7 +909,7 @@ U 1 1 606C59D7
 P 9050 3650
 F 0 "BZ101" H 9250 3950 50  0000 C CNN
 F 1 "Buzzer" H 9250 3850 50  0000 C CNN
-F 2 "Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm" V 9025 3750 50  0001 C CNN
+F 2 "Buzzer_Beeper:Buzzer_12x9.5RM7.6" V 9025 3750 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/e98051deb5318767fbb4534d8e5fd23c/ld-bzeg-1205.pdf" V 9025 3750 50  0001 C CNN
 F 4 "Loudity" H 9050 3650 50  0001 C CNN "Manufac."
 F 5 "Buzzer 12mm con oscilador de 5V" H 9050 3650 50  0001 C CNN "Description"
