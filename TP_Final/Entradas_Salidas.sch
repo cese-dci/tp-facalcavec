@@ -1558,6 +1558,7 @@ F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/OP07.pd
 F 4 "Analog Divice" H 8500 5100 50  0001 C CNN "Manufac."
 F 5 "DIP8 - Ultralow Offset Voltage Operational Amplifier" H 8500 5100 50  0001 C CNN "Description"
 F 6 "CI2702050" H 8500 5100 50  0001 C CNN "Elemon part"
+F 7 "OP07DNZ-ND" H 8500 5100 50  0001 C CNN "Digikey part"
 	1    8500 5100
 	1    0    0    -1  
 $EndComp
@@ -1642,8 +1643,8 @@ $Comp
 L Connector:Screw_Terminal_01x02 J116
 U 1 1 60CF67C7
 P 1200 6450
-F 0 "J116" H 1100 6100 50  0000 L CNN
-F 1 "BG2" H 1100 6200 50  0000 L CNN
+F 0 "J116" H 1175 6100 50  0000 L CNN
+F 1 "BG2" H 1200 6200 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" H 1200 6450 50  0001 C CNN
 F 3 "~" H 1200 6450 50  0001 C CNN
 F 4 "BO5811874" H 1200 6450 50  0001 C CNN "Elemon part"
@@ -1755,6 +1756,7 @@ F 3 "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF" H 3725 6300 50 
 F 4 "On Semiconductor" H 3725 6350 50  0001 C CNN "Manufac."
 F 5 "1A Fixed Voltage Regulator TO-220" H 3725 6350 50  0001 C CNN "Description"
 F 6 "CI2707457" H 3725 6350 50  0001 C CNN "Elemon part"
+F 7 "MC7805ACTGOS-ND" H 3725 6350 50  0001 C CNN "Digikey part"
 	1    3725 6350
 	1    0    0    -1  
 $EndComp
@@ -2274,4 +2276,34 @@ Wire Wire Line
 Connection ~ 2625 6350
 Wire Wire Line
 	2625 6350 3125 6350
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 6092C532
+P 2175 6225
+AR Path="/605E6390/6092C532" Ref="#FLG?"  Part="1" 
+AR Path="/60564208/6092C532" Ref="#FLG0103"  Part="1" 
+F 0 "#FLG0103" H 2175 6300 50  0001 C CNN
+F 1 "PWR_FLAG" H 2175 6398 50  0000 C CNN
+F 2 "" H 2175 6225 50  0001 C CNN
+F 3 "~" H 2175 6225 50  0001 C CNN
+	1    2175 6225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2175 6225 2175 6350
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 6093E296
+P 1450 6225
+AR Path="/605E6390/6093E296" Ref="#FLG?"  Part="1" 
+AR Path="/60564208/6093E296" Ref="#FLG0104"  Part="1" 
+F 0 "#FLG0104" H 1450 6300 50  0001 C CNN
+F 1 "PWR_FLAG" H 1450 6398 50  0000 C CNN
+F 2 "" H 1450 6225 50  0001 C CNN
+F 3 "~" H 1450 6225 50  0001 C CNN
+	1    1450 6225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 6450 1450 6225
 $EndSCHEMATC
